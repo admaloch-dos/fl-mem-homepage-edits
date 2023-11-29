@@ -1,0 +1,951 @@
+@charset "utf-8";
+/* CSS Document */
+
+/************************************** CURSOR GUIDE SETTINGS ***********************************/
+.CursorGuide *,
+.CursorGuide *:hover{
+	cursor: url('/themes/florida_memory/images/large-cursor.png'), auto!important;
+}
+.CursorGuide #tail{
+	display:block;
+}
+#tail {
+	display:none;
+	position: absolute;
+	width: 100%;
+	height: 8px;
+	background-color: #000;
+	border: 2px solid yellow;
+	z-index:5000;
+}
+
+/************************************** INVERTED SETTINGS ***********************************/
+body.inverted {
+	background-color: #151515;
+	color:#8F8F8F!important;
+}
+.inverted h1,
+.inverted h2,
+.inverted h3,
+.inverted h4,
+.inverted h5,
+.inverted h6{
+	color:#7E42FF;
+}
+.inverted .table{
+	color:#8F8F8F;
+}
+.inverted img{
+	filter:invert(100%);
+} 
+.inverted a{
+	color:#FF9E66!important;
+}
+.inverted #Scroll_btn{
+	background-color: #000;
+	color: #FF9E66;
+    border: 4px solid #FF9E66;
+}
+.inverted #header_links_container ul li.radio_program a{
+	color:#FF9E66!important;
+}
+
+/**** CUSTOM LIST ****/
+.inverted .customlist li:before{
+	 border-color: transparent transparent transparent #7E42FF;
+}
+.inverted .secondlevel_customlist li:before{
+	background-color:#7E42FF;
+	border-top-color:#7E42FF!important;
+}
+.inverted .thirdlevel_customlist li:before{
+	background-color:#7E42FF;
+}
+
+/**** INDEX ****/
+.inverted .parallax{
+	filter:invert(100%);
+}
+.inverted .parallax .text-block p{
+	filter:invert(100%);
+}
+.inverted .parallax .gradient-overlay{
+	filter:invert(100%);
+}
+.inverted .text-block2{
+	filter:invert(100%);
+}
+.inverted #intro_box{
+    background: #3d3d3d;
+    box-shadow: none;
+}
+.inverted .fm_section{
+	filter:invert(100%);
+}
+.inverted #featured, .inverted #fm_slider {
+    background-color: rgb(0, 0, 0);
+}
+.inverted #other {
+    background-color: #3d3d3d;
+    box-shadow: none;
+}
+.inverted #other .icon_container{
+	background-color:transparent;
+}
+.inverted #socialmedia {
+    background-color: #151515;
+    border-bottom: 3px solid #1e1e1e;
+}
+.inverted #navContainer{
+    background-color: #000000;
+}
+.inverted #main_navbar{
+    background-color: #2C2C2C;
+}
+.inverted .stuck.breadcrumb_jumbo{
+    background-color: #2C2C2C;
+    border-bottom-color: black;
+}
+.inverted .stuck .breadcrumb-item.active{
+	color:#FF9E66 !important;
+}
+.inverted .breadcrumb_jumbo .dropdown-item.active,
+.inverted .breadcrumb_jumbo .dropdown-item:active,
+.inverted .breadcrumb_jumbo .dropdown-item:focus,
+.inverted .breadcrumb_jumbo .dropdown-item:hover{
+	    background-color: #606060;
+}
+.inverted #AffilatedSites {
+    background-color: #2C2C2C;
+}
+.inverted #header_links_container{
+	border-top-color:#FF9E66;
+}
+.inverted #header_links_container ul li#AffilatedSites_btn{
+    background-color: #2C2C2C;
+	border-color:#FF9E66;
+}
+.inverted .resourcesLink .state_sites.middle::before, 
+.inverted .resourcesLink .state_sites.last::before{
+	background-color:#8F8F8F;
+	box-shadow:none;
+}
+.inverted .nav-item > .dropdown-menu,
+.inverted .dropdown-menu.mega{
+    background-color: #525252;
+}
+.inverted .firstLevel:hover{
+	background-color:transparent;
+}
+.inverted .firstLevel:hover a{
+	color:#FFE7D9 !important;
+}
+.inverted .mega{
+	filter:invert(100%);
+}
+.inverted .mega #menuTitle{
+	filter:invert(100%);
+	background-color: #525252 !important;
+}
+.inverted #bottom_sites{
+	border-top-color:#8F8F8F;
+}
+.inverted #bottom_sites .list-inline-item+.list-inline-item::before{
+	color:#8F8F8F;
+}
+.inverted .SearchForm .input-group .input-group-append #submit_search{
+	color:#FF9E66;
+}
+.inverted #ada_dropdown{
+	background-color: #2C2C2C;
+}
+.inverted #accessibility .form-check ul li{
+	background-color: #2C2C2C;
+}
+.inverted #accessibility .form-check ul li:before{
+	color: #FFAC7D;
+}
+.inverted #footerFeat_container {
+    background-color: #202020;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+.inverted #footerFeat_container .carousel_Title{
+    background: #000;
+}
+.inverted #footerFeat_container .img{
+	filter: invert(100%);
+}
+.inverted #footerFeat_container .feature_item{
+	color: #8d8d8d;
+}
+.inverted .Footer{
+    background: #000;
+	color:#8F8F8F;
+}
+
+/**** Exhibits, Historical Records ****/
+.inverted .hero_image{
+    background-color: #000000;
+	filter: invert(100%);
+}
+.inverted .jumbotron{
+	background-color:#000;
+}
+
+/**** Learn,Discover,Share ****/
+.inverted .promo_teaser .teaser_image{
+	filter: invert(100%);
+}
+/*Side Nav*/
+.inverted #menudropdown .card-body{
+	background-color:transparent;
+	border: none;
+    border-top: #303030 1px solid;
+}
+.inverted .caption-lead{
+	color:#8F8F8F;
+}
+.inverted .Item_Pager .pagination .page-item.active .page-link{
+	color:#FF9E66!important;
+}
+.inverted .Item_Pager .pagination .page-item.active .page-link:before{
+	border-top-color:#FF9E66;
+}
+.inverted .Item_Pager ul li:hover,
+.inverted .Item_Pager ul li.active{
+	border-bottom-color:#FF9E66;
+	color:#FF9E66;
+}
+.inverted .info-box > h4{
+	border-color: #5F32BF!important;
+}
+.inverted .figure-caption{
+	color: #8F8F8F;
+}
+.inverted .content_figure .lead_caption{
+	color: #a1a1a1;
+}
+.inverted .document-excerpt-box{
+	border: 1px dashed #9f9f9f;
+}
+
+
+
+
+/************************************** DESATURATED SETTINGS ***********************************/
+.desaturated a{
+	color:#505050!important;
+}
+.desaturated a:hover{
+	color:#505050 !important;
+}
+.desaturated #Scroll_btn{
+	color: #353535;
+	border-color:#353535;
+}
+.desaturated img{
+	filter:grayscale(100%);
+} 
+.desaturated .customlist li:before{
+	border-color: transparent transparent transparent #505050;
+}
+.desaturated .secondlevel_customlist li:before{
+	background-color:#505050;
+	border-top-color:#505050!important;
+}
+.desaturated .thirdlevel_customlist li:before{
+	background-color:#505050;
+}
+
+/**** header ****/
+.desaturated #header_links_container{
+	border-top-color:#6c6c6c;
+}
+.desaturated #header_links_container ul li#AffilatedSites_btn{
+	background-color:#fff;
+	border-color:#6c6c6c;
+}
+.desaturated #settings_dropdown #accessibility > a{
+	color: #363636;
+}
+.desaturated  #navContainer .navbar-nav a.nav-link{
+	color: #A2A2A2;
+}
+.desaturated .mega{
+	filter: grayscale(100%);
+}
+.desaturated #navContainer .dropdown-submenu .mega a.dropdown-item{
+	color:#fff !important;
+}
+.desaturated #navContainer .dropdown-submenu .mega #menuTitle{
+	background-color: #5d5d5d!important;
+}
+.desaturated #navContainer .dropdown-submenu .mega #menuTitle a{
+	color:#fff !important;
+}
+.desaturated #AffilatedSites {
+    background-color: #919191;
+}
+.desaturated #AffilatedSites ul li a{
+	color:#fff !important;
+}
+.desaturated .resourcesLink .state_sites.middle::before,
+.desaturated .resourcesLink .state_sites.last::before{
+	background-color:#505050;
+}
+.desaturated #bottom_sites{
+	border-top-color:#505050;
+}
+.desaturated #bottom_sites .list-inline-item+.list-inline-item::before{
+	color:#505050;
+}
+.desaturated .DLIS_Logo{
+	filter: grayscale(100%) drop-shadow(-4px 2px 2px #626262);
+}
+
+/**** INDEX page ****/
+.desaturated .parallax{
+	filter: grayscale(100%);
+}
+.desaturated .text-block a{
+	color:#fff !important;
+}
+.desaturated #intro_box .container-fluid .nav .nav-link{
+	color:#fff !important;
+}
+.desaturated #intro_box,
+.desaturated #other{
+	background-color: #919191;
+} 
+.desaturated #featured,
+.desaturated #socialmedia{
+	background-color: #fff;
+} 
+.desaturated #socialmedia .btn.media_btns{
+	background-color:#000;
+}
+.desaturated .fm_section{
+	filter: grayscale(100%);
+}
+.desaturated .icon_container{
+	background: #cccccc
+}
+
+/**** footer feature(new & noteworthy section) ****/
+.desaturated #footerFeat_container{
+	background: #919191;
+	border-top-color:#505050;
+}
+.desaturated .carousel_Title{
+	background-color: #505050;
+}
+.desaturated .feature_item,
+.desaturated .feature_title,
+.desaturated .feature_description{
+	color:#fff;
+}
+.desaturated .img{
+	filter: grayscale(100%);
+}
+
+/**** footer ****/
+.desaturated .Footer{
+	background: #505050;
+}
+.desaturated .Footer .nav-link{
+	color:#fff !important;
+}
+.desaturated .fmp-informative a{
+	color:#fff !important;
+}
+
+/**** Discover, Learn, Share ****/
+.desaturated .teaser_image{
+	filter: grayscale(100%);
+}
+
+
+/***** Historical Records ****/
+.desaturated .panel-primary > .panel-heading{
+	color: #505050;
+}
+.desaturated .showall i{
+	color: #505050 !important;
+}
+.desaturated .popularItems:before{
+	color: #505050;
+}
+.desaturated #myCarousel .fa-chevron-left, 
+.desaturated #myCarousel .fa-chevron-right{
+	color: #505050;
+}
+.desaturated .hero_image{
+	filter: grayscale(100%);
+}
+
+/**** Classroom ****/
+.desaturated .section_intro{
+	background-color: #505050;
+}
+.desaturated  #carouselHistoryMonth .carousel-indicators li.active{
+	border-bottom-color:#a3a3a3;
+}
+.desaturated #carouselHistoryMonth .carousel-indicators li.active::after{
+	border-top-color:#a3a3a3;
+}
+
+/**** features from other pages ****/
+.desaturated .jumbotron{
+	background-color: #505050;
+}
+
+/*Breadcrumb*/
+.desaturated .breadcrumb_jumbo .breadcrumb_dropdownmenu{
+	background-color:#fff;
+	border-color:#d0d0d0;
+}
+.desaturated .breadcrumb_jumbo .dropdown-item.active,
+.desaturated .breadcrumb_jumbo .dropdown-item:active{
+	color: #fff !important;	
+}
+.desaturated .BC_MENU .breadcrumb_submenu .dropdown-menu{
+	background-color:#fff;
+	border-color:#d0d0d0;
+}
+
+/************************************** CURSOR SWAP SETTINGS ***********************************/
+/*https://icons8.com/icons/set/cursor-arrow*/
+body.CursorSwap{
+	cursor: url('/themes/florida_memory/images/large-cursor.png'), auto;
+}
+.CursorSwap *,
+.CursorSwap *:hover{
+	cursor: url('/themes/florida_memory/images/large-cursor.png'), auto!important;
+}
+.CursorSwap a:-webkit-any-link{
+	cursor: url('/themes/florida_memory/images/large-cursor.png'), auto;
+}
+.CursorSwap #ada_dropdown label{
+	cursor: url('/themes/florida_memory/images/large-cursor.png'), auto;
+}
+.CursorSwap #accessibility .form-check-input{
+	cursor: url('/themes/florida_memory/images/large-cursor.png'), auto;
+}
+.CursorSwap #Scroll_btn,
+.CursorSwap #Scroll_btn:hover{
+	cursor: url('/themes/florida_memory/images/large-cursor.png'), auto;
+}
+.CursorSwap [type=button]:not(:disabled),
+.CursorSwap [type=reset]:not(:disabled),
+.CursorSwap [type=submit]:not(:disabled),
+.CursorSwap button:not(:disabled){
+	cursor: url('/themes/florida_memory/images/large-cursor.png'), auto;
+}
+
+
+
+/************************************** FONT TYPE SWAP SETTINGS ***********************************/
+@font-face {
+    font-family: "OpenDyslexicRegular";
+    src: url("/themes/florida_memory/fonts/OpenDyslexic-Regular.eot");
+    src: url("/themes/florida_memory/fonts/OpenDyslexic-Regular.eot?#iefix") format('embedded-opentype'),
+         url("/themes/florida_memory/fonts/OpenDyslexic-Regular.woff2") format('woff2'),
+         url("/themes/florida_memory/fonts/OpenDyslexic-Regular.woff") format('woff'),
+		 url("/themes/florida_memory/fonts/OpenDyslexic-Regular.otf") format('opentype'),
+         url("/themes/florida_memory/fonts/OpenDyslexic-Regular.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+body.DyslexicFont{
+	font-family: 'OpenDyslexicRegular', sans-serif;
+}
+.DyslexicFont *,
+.DyslexicFont a,
+.DyslexicFont h1,
+.DyslexicFont h2,
+.DyslexicFont h3,
+.DyslexicFont h4,
+.DyslexicFont h5,
+.DyslexicFont h6,
+.DyslexicFont span,
+.DyslexicFont ul,
+.DyslexicFont li,
+.DyslexicFont section,
+.DyslexicFont div{
+	font-family: 'OpenDyslexicRegular', sans-serif;
+}
+.DyslexicFont .Item_Pager .pagination .page-item .page-link{
+	font-family: 'OpenDyslexicRegular', sans-serif;
+}
+.DyslexicFont .content_figure .fig_cap{
+	font-family: 'OpenDyslexicRegular', sans-serif!important;
+}
+.DyslexicFont i.fa{
+	font-family: 'FontAwesome';
+}
+
+/************************************** FONT SIZE SWAP SETTINGS ***********************************/	
+body.fontSizeMedium{
+  font-size:1.1rem!important;
+}
+.fontSizeMedium h1{
+  font-size:3.5rem;
+}
+.fontSizeMedium h2{
+  font-size:3rem;
+}
+.fontSizeMedium h3{
+  font-size:2.5rem;
+}
+.fontSizeMedium h4{
+  font-size:2rem;
+}
+.fontSizeMedium h5{
+  font-size:1.5rem;
+}
+.fontSizeMedium h6{
+  font-size:1.1rem;
+}
+.fontSizeMedium p{
+  font-size:17px;
+}
+.fontSizeMedium .subheader{
+	font-size:2.2em;
+}
+.fontSizeMedium .border_header h5{
+	font-size:25px;
+}
+.fontSizeMedium .Item_Pager .pagination .page-item .page-link{
+	font-size:16px;
+}
+
+/**** HEADER ****/
+.fontSizeMedium #header_links_container ul li.radio_program a{
+	font-size:12px;
+}
+.fontSizeMedium #header_links_container ul li > a{
+	font-size:14px;
+}
+.fontSizeMedium  #navContainer .navbar-nav a.nav-link{
+	font-size:15px;
+}
+.fontSizeMedium #navContainer .dropdown-submenu a{
+	font-size:17px!important;
+}
+.fontSizeMedium.DyslexicFont .mega a{
+	white-space: break-spaces;
+}
+.fontSizeMedium .dropdown-header.bottom{
+	white-space: break-spaces;
+}
+.fontSizeMedium .dropdown-header.bottom{
+	font-size:15px!important;
+}
+.fontSizeMedium .dropdown-header{
+	font-size:15px!important;
+	letter-spacing: 2px;
+}
+.fontSizeMedium #audio .mega{
+	top:-6.5rem!important;
+}
+.fontSizeMedium #video .mega{
+	top:-232%!important;
+}
+.fontSizeMedium #photo .mega{
+	top:-0.3rem!important;
+}
+.fontSizeMedium #classroom .mega{
+	top:-2.4rem!important;
+}
+.fontSizeMedium #exhibits .mega{
+	top:-6.5rem!important;
+}
+.fontSizeMedium #how_to .mega{
+	top:-432%!important;
+}
+.fontSizeMedium #historical_records .mega{
+	top:-38px!important;
+}
+.fontSizeMedium #maps .mega{
+	top:-71px!important;
+}
+.fontSizeMedium #guides .mega{
+	top:-137px!important;
+}
+.fontSizeMedium #about_fm  .mega{
+	top:-2px!important;
+}
+
+
+
+.fontSizeMedium.DyslexicFont #historical_records .mega{
+	top:-37px!important;
+}
+.fontSizeMedium.DyslexicFont #maps .mega{
+	top:-70px!important;
+}
+.fontSizeMedium.DyslexicFont #audio .mega{
+	top:-6.5rem!important;
+}
+.fontSizeMedium.DyslexicFont #video .mega{
+	top:-232%!important;
+}
+.fontSizeMedium.DyslexicFont #photo .mega{
+	top: -0.2rem!important;
+}
+.fontSizeMedium.DyslexicFont #classroom .mega{
+	top:-2.3rem!important;
+}
+.fontSizeMedium.DyslexicFont #exhibits .mega{
+	top:-6.5rem!important;
+}
+.fontSizeMedium.DyslexicFont #guides .mega{
+	top:-8.5rem!important;
+}
+.fontSizeMedium.DyslexicFont #how_to .mega{
+	top:-432%!important;
+}
+/**** BREADCRUMB ****/
+.fontSizeMedium .breadcrumb_jumbo .breadcrumb{
+	font-size:15px;
+}
+
+/**** INDEX ****/
+.fontSizeMedium .text-block{
+	font-size:14px;
+}
+.fontSizeMedium #intro_box .container .nav .nav-link{
+	font-size:16px;
+}
+.fontSizeMedium .large_box h5{
+	font-size:22px;
+}
+.fontSizeMedium .large_box p{
+	font-size:16px;
+}
+.fontSizeMedium .mini_boxes h5{
+	font-size:17px;
+}
+.fontSizeMedium .mini_boxes p{
+	font-size:15px;
+}
+.fontSizeMedium .fm_resources .card-title{
+	font-size:18px;
+}
+.fontSizeMedium .slider .title{
+	font-size:18px;
+}
+.fontSizeMedium .slider .title span a{
+	font-size:13px;
+}
+.fontSizeMedium .slider .caption,
+.fontSizeMedium .slider .caption .caption_sub{
+	font-size:15px;
+}
+.fontSizeMedium .slider #photo_collection_scrollmenu .item_count{
+	font-size:13px;
+}
+/**** FOOTER ****/
+.fontSizeMedium .open-button{
+	font-size:14px;
+}
+.fontSizeMedium .Footer .columnTitle{
+	font-size:16px!important;
+}
+.fontSizeMedium .Footer .affiliates a,
+.fontSizeMedium .additional_Links a{
+	font-size:16px;
+}
+
+/**** COLLECTIONS ****/
+.fontSizeMedium .page_title{
+	font-size:5rem !important;
+}
+.fontSizeMedium .page_subtitle{
+	font-size: 2.5rem !important;
+}
+
+
+
+/**** MOBILE SIDENAV *****/
+.fontSizeMedium #mobile_navigation ul li a{
+	font-size:15px;
+}
+
+
+
+/************************************** HIGHLIGHT SETTINGS ***********************************/
+.HighlightLinks a{
+	color:yellow!important;
+	background-color:#000;
+	text-decoration: underline!important;
+}
+.HighlightLinks #header_links_container ul li.radio_program a{
+	color:yellow!important;
+}
+.HighlightLinks .default_logo{
+	display:none;
+}
+.HighlightLinks .highcontrast_logo{
+	display:block!important;
+}
+.highcontrast.HighlightLinks a{
+	border: 2px dashed yellow;
+	background-color:transparent;
+}
+.HighlightLinks .firstLevel:hover {
+    background-color: rgba(0,0,0,0.9);
+}
+.HighlightLinks.highcontrast #other .icon_container{
+	background-color:transparent;
+}
+.HighlightLinks.highcontrast #other a{
+	border:none;
+}
+
+.HighlightLinks a .fm_section .title,
+.HighlightLinks .fm_section .subtitle{
+	color:yellow;
+}
+
+
+
+/************************************** HIGHCONTRAST SETTINGS ***********************************/
+body.highcontrast{
+  color:white!important;
+  background-color:#151515;
+}
+.highcontrast a{
+	color:#E6CE20;
+}
+.highcontrast a:hover,
+.highcontrast a:focus{
+	color:#FFD145 !important;
+}
+.highcontrast .page_guideBtn{
+	color:inherit!important;
+}
+.highcontrast .customlist li:before{
+	border-color: transparent transparent transparent #E6CE20;
+}
+.highcontrast .secondlevel_customlist li:before{
+	background-color:#E6CE20;
+	border-top-color:#E6CE20!important;
+}
+.highcontrast .thirdlevel_customlist li:before{
+	background-color:#E6CE20;
+}
+/***** HEADER *****/
+.highcontrast .firstLevel:hover{
+	background-color:transparent;
+}
+.highcontrast #swapBtn{
+	color:#fff!important;
+}
+.highcontrast .nav-item > .dropdown-menu,
+.highcontrast .dropdown-menu.mega{
+	background-color: #525252;
+}
+.highcontrast #navContainer .dropdown-submenu a.dropdown-item{
+	color:#fff!important;
+}
+.highcontrast .dropdown-header.bottom{
+	color: #acacac;
+	text-decoration:none!important;
+}
+.highcontrast .dropdown-menu.mega .dropdown-header{
+	    color: #acacac;
+    text-decoration: underline;
+}
+.highcontrast #accessibility .form-check ul li:before,
+.highcontrast #accessibility .form-check ul li#DarkContrast_option.active:before{
+	color:white;
+}
+/***** INDEX PAGE *****/
+.highcontrast #myContainer{
+	color: white!important;
+	/*background-color: #2C2C2C;*/
+	background-color: #181818;
+	box-shadow:none;
+}
+.highcontrast #view{
+	background-color:#151515;
+}
+.highcontrast .fm_resources .card-footer{
+	color: #E6CE20;
+}
+.highcontrast #intro_box{
+	background: #3d3d3d;
+	box-shadow:none;
+}
+.highcontrast .large_box h5,
+.highcontrast .mini_boxes h5{
+	color:#E6CE20;
+}
+.highcontrast .socialmediaHeader{
+	border-color:white;
+}
+.highcontrast .featured_container .carousel-control-next,
+.highcontrast .featured_container .carousel-control-prev{
+	color:white!important;
+}
+@media screen and (min-width: 992px){
+.highcontrast .img_shadow{
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%,rgba(0, 0, 0, 0.8) 50%,rgba(0, 0, 0, 0.8) 50%);
+	}
+}
+.highcontrast .featured_container .media-body p{
+	text-shadow:none;
+}
+.highcontrast .title{
+	color:white;
+}
+.highcontrast .btn_slider,
+.highcontrast .btn_slider:hover{
+	color:white;
+}
+.highcontrast div.scrollmenu .menu_item{
+	background: #202020;
+    color: #ffffff!important;
+	font-weight:normal;
+}
+.highcontrast div.scrollmenu::-webkit-scrollbar-thumb{
+	background: #696969;
+}
+.highcontrast div.scrollmenu::-webkit-scrollbar-track-piece{
+	background:#fff;
+}
+.highcontrast #photo_collection_scrollmenu .item_count{
+	background: #202020;
+	font-weight:600;
+	border-top: 1px solid white;
+}
+.highcontrast .fm_resources .card{
+	background-color: #1e1e1e;
+    border-color: #000000;
+}
+.highcontrast .fm_resources .card-body .fa{
+	color:white;
+}
+.highcontrast #featured,
+.highcontrast #fm_slider {
+    background-color: rgb(0, 0, 0);
+}
+.highcontrast #featured .jumbo_title{
+	color:#fff;
+	border-color:#bd5410;
+	border-bottom-width:4px;
+}
+.highcontrast #featured_container{
+	background-color:transparent;
+}
+.highcontrast #bottom_features .features_title{
+	color:#fff;
+	border-bottom-color:#bd5410;
+	border-bottom-width: 2px;
+}
+.highcontrast #bottom_features h5 a,
+.highcontrast #bottom_features p {
+    color: #ffffff!important;
+}
+.highcontrast #components{
+    background-color: #151515;
+	border-top:3px solid #1e1e1e;
+	border-bottom:3px solid #1e1e1e;
+}
+.highcontrast #socialmedia {
+    background-color: #151515;
+	border-bottom:3px solid #1e1e1e;
+}
+.highcontrast #socialmedia .jumbo_title{
+	color:#fff;
+	border-color:#bd5410;
+	border-bottom-width:4px;
+}
+.highcontrast #components .teaser_type{
+	    color: #E6CE20;
+}
+.highcontrast #components h6,
+.highcontrast #components p{
+	color:#fff;
+}
+
+.highcontrast #other{
+	background-color: #3d3d3d;
+	box-shadow:none;
+}
+.highcontrast #other .icon_container{
+	background: #E6CE20;
+}
+.highcontrast .top_shadow,
+.highcontrast .bottom_shadow{
+	display:none;
+}
+.highcontrast #socialmedia .jumbo_title a{
+	color:#fff;
+}
+
+/***** SIDENAV *****/
+.highcontrast #openNavBtn{
+	color:#fff !important;
+}
+.highcontrast #menudropdown .card-body{
+	background-color: #272727;
+	border-color: #000;
+}
+.highcontrast #menudropdown .card-body .nav-link{
+	color:#fff !important;
+	transition:none;
+}
+.highcontrast #menudropdown .card-body .nav-link:hover{
+	color:#fff !important;
+}
+.fontSizeMedium #menudropdown .card-body .nav-link{
+	font-size: 17px;
+}
+
+/***** MISC *****/
+.highcontrast .mydivider {
+    background-color: #000;
+}
+.highcontrast .jumbotron{
+	background-color:#000;
+}
+.highcontrast .content_figure .fig_cap{
+	color:#fff;
+}
+
+/***** PAGER *****/ 
+.highcontrast .Item_Pager .pagination .page-item .page-link{
+	color:#fff !important;
+}
+.highcontrast .Item_Pager ul li:hover,
+.highcontrast .Item_Pager ul li.active{
+	border-bottom-color:#E6CE20;
+}
+.highcontrast .Item_Pager .pagination .page-item.active .page-link,
+.highcontrast .Item_Pager .pagination.pagination-circle .page-item .page-link:hover{
+	color: #E6CE20!important;
+}
+.highcontrast .Item_Pager .pagination .page-item .page-link:hover:before,
+.highcontrast .Item_Pager .pagination .page-item.active .page-link:before
+{
+	border-top-color:#E6CE20;
+}
+
+/***** BREADCRUMB *****/ 
+.highcontrast .breadcrumb_jumbo .breadcrumb-item,
+.highcontrast .breadcrumb_jumbo .breadcrumb-dot .breadcrumb-item+.breadcrumb-item::before{
+	color: #ffffff!important;
+}
+.highcontrast .breadcrumb_jumbo .breadcrumb-item.active{
+	color: #fff!important;
+}
+.highcontrast .stuck.breadcrumb_jumbo {
+    background-color: #2C2C2C;
+    border-bottom-color: black;
+}
+.highcontrast .table{
+	color:white;
+}
