@@ -1,0 +1,5073 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Florida Memory</title>
+  <meta name="description"
+    content="Searchable collections of manuscripts, war records, historic images, vital statistics, audio and video recordings from the State Library and Archives of Florida.">
+  <meta name="author" content="State Library and Archives of Florida">
+  <!-- OG tags -->
+  <meta property="fb:app_id" content="274151403373">
+  <meta property="og:title" content="Florida Memory">
+  <meta property="og:type" content="website">
+  <meta property="og:description"
+    content="Searchable collections of manuscripts, war records, historic images, vital statistics, audio and video recordings from the State Library and Archives of Florida.">
+  <meta property="og:url" content="https://www.floridamemory.com/">
+  <meta property="og:image"
+    content="https://www.floridamemory.com/themes/florida_memory/images/logoshttps://www.floridamemory.com/fmp-compass_300.png">
+  <meta property="og:site_name" content="Florida Memory">
+
+
+
+  <!--favicons-->
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="https://www.floridamemory.com/themes/florida_memory/images/logos/apple-touch-icon.png">
+  <link rel="icon" type="image/png"
+    href="https://www.floridamemory.com/themes/florida_memory/images/logos/favicon-128.png" sizes="32x32">
+  <link rel="icon" type="image/png"
+    href="https://www.floridamemory.com/themes/florida_memory/images/logos/favicon-128.png" sizes="16x16">
+  <!--<link rel="manifest" href="https://www.floridamemory.com/themes/florida_memory/images/logos/manifest.json">-->
+  <link rel="mask-icon" href="https://www.floridamemory.com/themes/florida_memory/images/logos/safari-pinned-tab.svg"
+    color="#c48628">
+  <!--<link rel="shortcut icon" href="https://www.floridamemory.com/themes/florida_memory/images/logos/favicon.ico">-->
+  <link rel="shortcut icon" href="https://www.floridamemory.com/themes/florida_memory/images/logos/favicon-128.png"
+    sizes="16x16">
+  <!--<meta name="msapplication-config" content="https://www.floridamemory.com/themes/florida_memory/images/logos/browserconfig.xml">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="theme-color" content="#ffffff">
+  <title>Florida Memory</title>
+
+  <link rel="stylesheet" href="themes/florida_memory/css/header_style.css">
+  <!-- <link rel="stylesheet" href="https://www.floridamemory.com/themes/florida_memory/css/header_style.css?version=1.28"> -->
+  <link rel="stylesheet" href="themes/florida_memory/css/fm_style.css">
+  <!-- <link rel="stylesheet" href="https://www.floridamemory.com/themes/florida_memory/css/fm_style.css?version=1.30"> -->
+  <!-- <link rel="stylesheet"
+
+    href="https://www.floridamemory.com/themes/florida_memory/fonts/font-awesome-4.7.0/css/font-awesome.min.css?version=1.2"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link rel="stylesheet" href="https://www.floridamemory.com/themes/florida_memory/css/cookie_style.css?version=1.20">
+  <link rel="stylesheet"
+    href="https://www.floridamemory.com/themes/florida_memory/css/avant_searchResults.css?version=1.36">
+  <!-- <link rel="stylesheet" href="https://www.floridamemory.com/themes/florida_memory/javascripts/plyr/plyr.css?version=1.1">
+  <link rel="stylesheet" href="https://www.floridamemory.com/themes/florida_memory/javascripts/plyr/plyr-custom.css?version=1.6"> -->
+
+  <!--
+Font Preload https://wp-rocket.me/blog/font-preloading-best-practices/
+https://www.debugbear.com/blog/rel-preload-problems
+ -->
+
+  <!--<link rel="preload" href="https://www.floridamemory.com/themes/florida_memory/fonts/Roboto-Medium.ttf" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.floridamemory.com/themes/florida_memory/fonts/Roboto-Bold.ttf" as="font" type="font/woff2" crossorigin>-->
+
+
+  <!--CSS reset-->
+
+  <link rel="stylesheet" href="https://www.floridamemory.com/themes/florida_memory/css/animate.min.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+  <!--------- BOOTSTRAP 4.3 (8/14/19) --------->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://www.floridamemory.com/themes/florida_memory/css/bootstrap.min.css?version=1.1">
+
+  <!-- jQuery library -->
+  <script src="https://connect.facebook.net/en_US/sdk.js?hash=32a32c457551c8738661fabb110eeaca" async=""
+    crossorigin="anonymous"></script>
+  <script id="facebook-jssdk" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v3.2"></script>
+  <script src="https://www.floridamemory.com/themes/florida_memory/javascripts/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://www.floridamemory.com/themes/florida_memory/javascripts/popper.min.js?version=1.1"></script>
+  <script src="https://www.floridamemory.com/themes/florida_memory/javascripts/bootstrap.min.js?version=1.1"></script>
+  <script src="https://www.floridamemory.com/themes/florida_memory/javascripts/jquery.min.js"></script>
+  <script src="https://www.floridamemory.com/themes/florida_memory/javascripts/jquery-1.12.4.js"></script>
+  <script src="https://www.floridamemory.com/themes/florida_memory/javascripts/jquery-ui.js"></script>
+  <script src="https://www.floridamemory.com/themes/florida_memory/javascripts/jquery.cookie.min.js"></script>
+  <script src="https://www.floridamemory.com/themes/florida_memory/javascripts/js.cookie.min.js?version=1.1"></script>
+  <script src="https://www.floridamemory.com/themes/florida_memory/common/CookieScript.js"></script>
+
+
+
+  <style type="text/css"
+    data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">
+    .fb_hidden {
+      position: absolute;
+      top: -10000px;
+      z-index: 10001
+    }
+
+    .fb_reposition {
+      overflow: hidden;
+      position: relative
+    }
+
+    .fb_invisible {
+      display: none
+    }
+
+    .fb_reset {
+      background: none;
+      border: 0;
+      border-spacing: 0;
+      color: #000;
+      cursor: auto;
+      direction: ltr;
+      font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+      font-size: 11px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      letter-spacing: normal;
+      line-height: 1;
+      margin: 0;
+      overflow: visible;
+      padding: 0;
+      text-align: left;
+      text-decoration: none;
+      text-indent: 0;
+      text-shadow: none;
+      text-transform: none;
+      visibility: visible;
+      white-space: normal;
+      word-spacing: normal
+    }
+
+    .fb_reset>div {
+      overflow: hidden
+    }
+
+    @keyframes fb_transform {
+      from {
+        opacity: 0;
+        transform: scale(.95)
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1)
+      }
+    }
+
+    .fb_animate {
+      animation: fb_transform .3s forwards
+    }
+
+    .fb_hidden {
+      position: absolute;
+      top: -10000px;
+      z-index: 10001
+    }
+
+    .fb_reposition {
+      overflow: hidden;
+      position: relative
+    }
+
+    .fb_invisible {
+      display: none
+    }
+
+    .fb_reset {
+      background: none;
+      border: 0;
+      border-spacing: 0;
+      color: #000;
+      cursor: auto;
+      direction: ltr;
+      font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+      font-size: 11px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      letter-spacing: normal;
+      line-height: 1;
+      margin: 0;
+      overflow: visible;
+      padding: 0;
+      text-align: left;
+      text-decoration: none;
+      text-indent: 0;
+      text-shadow: none;
+      text-transform: none;
+      visibility: visible;
+      white-space: normal;
+      word-spacing: normal
+    }
+
+    .fb_reset>div {
+      overflow: hidden
+    }
+
+    @keyframes fb_transform {
+      from {
+        opacity: 0;
+        transform: scale(.95)
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1)
+      }
+    }
+
+    .fb_animate {
+      animation: fb_transform .3s forwards
+    }
+
+    .fb_dialog {
+      background: rgba(82, 82, 82, .7);
+      position: absolute;
+      top: -10000px;
+      z-index: 10001
+    }
+
+    .fb_dialog_advanced {
+      border-radius: 8px;
+      padding: 10px
+    }
+
+    .fb_dialog_content {
+      background: #fff;
+      color: #373737
+    }
+
+    .fb_dialog_close_icon {
+      background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;
+      cursor: pointer;
+      display: block;
+      height: 15px;
+      position: absolute;
+      right: 18px;
+      top: 17px;
+      width: 15px
+    }
+
+    .fb_dialog_mobile .fb_dialog_close_icon {
+      left: 5px;
+      right: auto;
+      top: 5px
+    }
+
+    .fb_dialog_padding {
+      background-color: transparent;
+      position: absolute;
+      width: 1px;
+      z-index: -1
+    }
+
+    .fb_dialog_close_icon:hover {
+      background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent
+    }
+
+    .fb_dialog_close_icon:active {
+      background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent
+    }
+
+    .fb_dialog_iframe {
+      line-height: 0
+    }
+
+    .fb_dialog_content .dialog_title {
+      background: #6d84b4;
+      border: 1px solid #365899;
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0
+    }
+
+    .fb_dialog_content .dialog_title>span {
+      background: url(https://connect.facebook.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;
+      float: left;
+      padding: 5px 0 7px 26px
+    }
+
+    body.fb_hidden {
+      height: 100%;
+      left: 0;
+      margin: 0;
+      overflow: visible;
+      position: absolute;
+      top: -10000px;
+      transform: none;
+      width: 100%
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading {
+      background: url(https://connect.facebook.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;
+      min-height: 100%;
+      min-width: 100%;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      z-index: 10001
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading.centered {
+      background: none;
+      height: auto;
+      min-height: initial;
+      min-width: initial;
+      width: auto
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner {
+      width: 100%
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content {
+      background: none
+    }
+
+    .loading.centered #fb_dialog_loader_close {
+      clear: both;
+      color: #fff;
+      display: block;
+      font-size: 18px;
+      padding-top: 20px
+    }
+
+    #fb-root #fb_dialog_ipad_overlay {
+      background: rgba(0, 0, 0, .4);
+      bottom: 0;
+      left: 0;
+      min-height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 100%;
+      z-index: 10000
+    }
+
+    #fb-root #fb_dialog_ipad_overlay.hidden {
+      display: none
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading iframe {
+      visibility: hidden
+    }
+
+    .fb_dialog_mobile .fb_dialog_iframe {
+      position: sticky;
+      top: 0
+    }
+
+    .fb_dialog_content .dialog_header {
+      background: linear-gradient(from(#738aba), to(#2c4987));
+      border-bottom: 1px solid;
+      border-color: #043b87;
+      box-shadow: white 0 1px 1px -1px inset;
+      color: #fff;
+      font: bold 14px Helvetica, sans-serif;
+      text-overflow: ellipsis;
+      text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0;
+      vertical-align: middle;
+      white-space: nowrap
+    }
+
+    .fb_dialog_content .dialog_header table {
+      height: 43px;
+      width: 100%
+    }
+
+    .fb_dialog_content .dialog_header td.header_left {
+      font-size: 12px;
+      padding-left: 5px;
+      vertical-align: middle;
+      width: 60px
+    }
+
+    .fb_dialog_content .dialog_header td.header_right {
+      font-size: 12px;
+      padding-right: 5px;
+      vertical-align: middle;
+      width: 60px
+    }
+
+    .fb_dialog_content .touchable_button {
+      background: linear-gradient(from(#4267B2), to(#2a4887));
+      background-clip: padding-box;
+      border: 1px solid #29487d;
+      border-radius: 3px;
+      display: inline-block;
+      line-height: 18px;
+      margin-top: 3px;
+      max-width: 85px;
+      padding: 4px 12px;
+      position: relative
+    }
+
+    .fb_dialog_content .dialog_header .touchable_button input {
+      background: none;
+      border: none;
+      color: #fff;
+      font: bold 12px Helvetica, sans-serif;
+      margin: 2px -12px;
+      padding: 2px 6px 3px 6px;
+      text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0
+    }
+
+    .fb_dialog_content .dialog_header .header_center {
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 18px;
+      text-align: center;
+      vertical-align: middle
+    }
+
+    .fb_dialog_content .dialog_content {
+      background: url(https://connect.facebook.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;
+      border: 1px solid #4a4a4a;
+      border-bottom: 0;
+      border-top: 0;
+      height: 150px
+    }
+
+    .fb_dialog_content .dialog_footer {
+      background: #f5f6f7;
+      border: 1px solid #4a4a4a;
+      border-top-color: #ccc;
+      height: 40px
+    }
+
+    #fb_dialog_loader_close {
+      float: left
+    }
+
+    .fb_dialog.fb_dialog_mobile .fb_dialog_close_icon {
+      visibility: hidden
+    }
+
+    #fb_dialog_loader_spinner {
+      animation: rotateSpinner 1.2s linear infinite;
+      background-color: transparent;
+      background-image: url(https://connect.facebook.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      height: 24px;
+      width: 24px
+    }
+
+    @keyframes rotateSpinner {
+      0% {
+        transform: rotate(0deg)
+      }
+
+      100% {
+        transform: rotate(360deg)
+      }
+    }
+
+    .fb_iframe_widget {
+      display: inline-block;
+      position: relative
+    }
+
+    .fb_iframe_widget span {
+      display: inline-block;
+      position: relative;
+      text-align: justify
+    }
+
+    .fb_iframe_widget iframe {
+      position: absolute
+    }
+
+    .fb_iframe_widget_fluid_desktop,
+    .fb_iframe_widget_fluid_desktop span,
+    .fb_iframe_widget_fluid_desktop iframe {
+      max-width: 100%
+    }
+
+    .fb_iframe_widget_fluid_desktop iframe {
+      min-width: 220px;
+      position: relative
+    }
+
+    .fb_iframe_widget_lift {
+      z-index: 1
+    }
+
+    .fb_iframe_widget_fluid {
+      display: inline
+    }
+
+    .fb_iframe_widget_fluid span {
+      width: 100%
+    }
+
+    .fb_mpn_mobile_landing_page_slide_out {
+      animation-duration: 200ms;
+      animation-name: fb_mpn_landing_page_slide_out;
+      transition-timing-function: ease-in
+    }
+
+    .fb_mpn_mobile_landing_page_slide_out_from_left {
+      animation-duration: 200ms;
+      animation-name: fb_mpn_landing_page_slide_out_from_left;
+      transition-timing-function: ease-in
+    }
+
+    .fb_mpn_mobile_landing_page_slide_up {
+      animation-duration: 500ms;
+      animation-name: fb_mpn_landing_page_slide_up;
+      transition-timing-function: ease-in
+    }
+
+    .fb_mpn_mobile_bounce_in {
+      animation-duration: 300ms;
+      animation-name: fb_mpn_bounce_in;
+      transition-timing-function: ease-in
+    }
+
+    .fb_mpn_mobile_bounce_out {
+      animation-duration: 300ms;
+      animation-name: fb_mpn_bounce_out;
+      transition-timing-function: ease-in
+    }
+
+    .fb_mpn_mobile_bounce_out_v2 {
+      animation-duration: 300ms;
+      animation-name: fb_mpn_fade_out;
+      transition-timing-function: ease-in
+    }
+
+    .fb_customer_chat_bounce_in_v2 {
+      animation-duration: 300ms;
+      animation-name: fb_bounce_in_v2;
+      transition-timing-function: ease-in
+    }
+
+    .fb_customer_chat_bounce_in_from_left {
+      animation-duration: 300ms;
+      animation-name: fb_bounce_in_from_left;
+      transition-timing-function: ease-in
+    }
+
+    .fb_customer_chat_bounce_out_v2 {
+      animation-duration: 300ms;
+      animation-name: fb_bounce_out_v2;
+      transition-timing-function: ease-in
+    }
+
+    .fb_customer_chat_bounce_out_from_left {
+      animation-duration: 300ms;
+      animation-name: fb_bounce_out_from_left;
+      transition-timing-function: ease-in
+    }
+
+    .fb_invisible_flow {
+      display: inherit;
+      height: 0;
+      overflow-x: hidden;
+      width: 0
+    }
+
+    @keyframes fb_mpn_landing_page_slide_out {
+      0% {
+        margin: 0 12px;
+        width: 100% - 24px
+      }
+
+      60% {
+        border-radius: 18px
+      }
+
+      100% {
+        border-radius: 50%;
+        margin: 0 24px;
+        width: 60px
+      }
+    }
+
+    @keyframes fb_mpn_landing_page_slide_out_from_left {
+      0% {
+        left: 12px;
+        width: 100% - 24px
+      }
+
+      60% {
+        border-radius: 18px
+      }
+
+      100% {
+        border-radius: 50%;
+        left: 12px;
+        width: 60px
+      }
+    }
+
+    @keyframes fb_mpn_landing_page_slide_up {
+      0% {
+        bottom: 0;
+        opacity: 0
+      }
+
+      100% {
+        bottom: 24px;
+        opacity: 1
+      }
+    }
+
+    @keyframes fb_mpn_bounce_in {
+      0% {
+        opacity: .5;
+        top: 100%
+      }
+
+      100% {
+        opacity: 1;
+        top: 0
+      }
+    }
+
+    @keyframes fb_mpn_fade_out {
+      0% {
+        bottom: 30px;
+        opacity: 1
+      }
+
+      100% {
+        bottom: 0;
+        opacity: 0
+      }
+    }
+
+    @keyframes fb_mpn_bounce_out {
+      0% {
+        opacity: 1;
+        top: 0
+      }
+
+      100% {
+        opacity: .5;
+        top: 100%
+      }
+    }
+
+    @keyframes fb_bounce_in_v2 {
+      0% {
+        opacity: 0;
+        transform: scale(0, 0);
+        transform-origin: bottom right
+      }
+
+      50% {
+        transform: scale(1.03, 1.03);
+        transform-origin: bottom right
+      }
+
+      100% {
+        opacity: 1;
+        transform: scale(1, 1);
+        transform-origin: bottom right
+      }
+    }
+
+    @keyframes fb_bounce_in_from_left {
+      0% {
+        opacity: 0;
+        transform: scale(0, 0);
+        transform-origin: bottom left
+      }
+
+      50% {
+        transform: scale(1.03, 1.03);
+        transform-origin: bottom left
+      }
+
+      100% {
+        opacity: 1;
+        transform: scale(1, 1);
+        transform-origin: bottom left
+      }
+    }
+
+    @keyframes fb_bounce_out_v2 {
+      0% {
+        opacity: 1;
+        transform: scale(1, 1);
+        transform-origin: bottom right
+      }
+
+      100% {
+        opacity: 0;
+        transform: scale(0, 0);
+        transform-origin: bottom right
+      }
+    }
+
+    @keyframes fb_bounce_out_from_left {
+      0% {
+        opacity: 1;
+        transform: scale(1, 1);
+        transform-origin: bottom left
+      }
+
+      100% {
+        opacity: 0;
+        transform: scale(0, 0);
+        transform-origin: bottom left
+      }
+    }
+
+    @keyframes slideInFromBottom {
+      0% {
+        opacity: .1;
+        transform: translateY(100%)
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0)
+      }
+    }
+
+    @keyframes slideInFromBottomDelay {
+      0% {
+        opacity: 0;
+        transform: translateY(100%)
+      }
+
+      97% {
+        opacity: 0;
+        transform: translateY(100%)
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0)
+      }
+    }
+  </style>
+  <script charset="utf-8" src="https://platform.twitter.com/js/timeline.16b53cc33aaa562f8f41a495bf720289.js"></script>
+</head>
+
+<body class="fm_content" id="FM_body">
+
+  <div class="main">
+
+
+
+    <!------------------------------------------------------------------------------ DEFAULT NAV/HEADER ------------------------------------------------------------------>
+    <div class="container-fluid fixed-top defaultNav" id="navContainer">
+
+
+
+
+      <div id="AffilatedSites" class="collapse">
+        <div class="resourcesLink">
+
+          <div class="container-fluid">
+
+            <div class="row justify-content-center">
+              <div class="col-12">
+                <p class="statement">Florida Memory is administered by the Florida Department of State, Division of
+                  Library and Information Services, Bureau of Archives and Records Management. The digitized records on
+                  Florida Memory come from the collections of the State Archives of Florida and the special collections
+                  of the State Library of Florida.</p>
+              </div>
+            </div><!-- row -->
+
+
+            <div class="row justify-content-center no-gutters">
+
+
+              <div class="col-12 col-lg-2 text-center">
+                <img class="img-fluid DLIS_Logo"
+                  src="https://www.floridamemory.com/themes/florida_memory/images/logos/dlis.png" alt="DLIS Logo"
+                  width="150">
+              </div>
+
+              <div class="col-12 col-lg-3 align-self-center">
+                <h6 class="states_section_title">State Archives of Florida</h6>
+                <ul class="list-unstyled state_sites first">
+                  <li><a href="http://www.archivesflorida.com">ArchivesFlorida.com</a></li>
+                  <li><a href="http://archivescatalog.info.florida.gov/">State Archives Online Catalog</a>
+                    <!--<form action="http://archivescatalog.info.florida.gov/default.asp?IDCFile=/fsa/PAGE.IDC" target="_blank">
+                  <div class="input-group mb-3">
+                  <input type="text" class="form-control form-control-sm col-10" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" name="q">
+                  <div class="input-group-append">
+                  <button class="btn btn-sm" type="submit" id="button-addon2">Go</button>
+                  </div>
+                  </div>
+                  </form>-->
+                  </li>
+                  <li class="list-inline-item" style="opacity:0; user-select: none;">ArchivesFlorida.com</li>
+                  <li class="list-inline-item" style="opacity:0; user-select: none;">ArchivesFlorida.com</li>
+                </ul>
+              </div>
+
+              <div class="col-12 col-lg-3 align-self-center">
+                <h6 class="states_section_title">State Library of Florida</h6>
+                <ul class="list-unstyled state_sites middle">
+                  <li><a href="https://dos.myflorida.com/library-archives/">Library.Florida.gov</a></li>
+                  <li>
+                    <a href="http://fslt.ent.sirsi.net/">State Library Online Catalog</a>
+                    <!--<form action="https://fslt.ent.sirsi.net/client/en_US/statelibrary/search/results" target="_blank">
+                  <div class="input-group mb-3">
+                  <input type="text" class="form-control form-control-sm col-10" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" name="q">
+                  <div class="input-group-append">
+                  <button class="btn btn-sm" type="submit" id="button-addon2">Go</button>
+                  </div>
+                  </div>
+                  </form>-->
+                  </li>
+                  <li class="list-inline-item"></li>
+                </ul>
+              </div>
+
+
+              <div class="col-12 col-lg-3 align-self-center">
+                <h6 class="states_section_title">Related Sites</h6>
+                <ul class="list-unstyled state_sites last">
+                  <li><a href="https://dos.myflorida.com/library-archives/">Division of Library and Information
+                      Services</a></li>
+                  <li><a href="https://www.flelibrary.com">Florida Electronic Library</a></li>
+                  <li><a href="https://museumoffloridahistory.com">Museum of Florida History</a></li>
+                </ul>
+              </div>
+
+              <div class="col-12">
+                <ul class="list-inline" id="bottom_sites">
+                  <li class="list-inline-item"><a href="https://dos.myflorida.com">Florida Department of State</a></li>
+                  <li class="list-inline-item"><a href="https://dos.myflorida.com/library-archives/">Division of Library
+                      and Information Services</a></li>
+                  <li class="list-inline-item"><a href="https://dos.myflorida.com/library-archives/archives/">State
+                      Archives of Florida</a></li>
+                </ul>
+              </div>
+            </div><!-- row justify-content-center -->
+
+
+          </div><!-- container fluid -->
+        </div><!-- resourcesLink -->
+      </div><!-- Affliated Sites -->
+
+
+
+      <div class="row d-none d-lg-block" id="header_links_container">
+        <div class="col-sm-12 d-flex justify-content-end">
+          <ul class="nav mr-3 mb-4">
+            <li class="nav-item radio_program"><a href="https://www.floridamemory.com/discover/audio/radio/"><img
+                  src="https://www.floridamemory.com/fpc/memory/audio/images/radio_logo.png" width="30px">Listen: The
+                Latin Program</a></li>
+
+            <li class="nav-item" id="AffilatedSites_btn">
+              <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#AffilatedSites"
+                aria-expanded="false"><img width="35"
+                  src="https://www.floridamemory.com/themes/florida_memory/images/logos/dlis.png"></a>
+            </li>
+
+
+          </ul>
+        </div>
+      </div><!-- header_links_container-->
+
+      <div class="row">
+        <div class="col-sm-12">
+          <nav class="navbar navbar-expand-lg justify-content-md-center" id="header_contents">
+            <a class="navbar-brand" href="https://www.floridamemory.com/">
+              <img class="img-fluid default_logo"
+                src="https://www.floridamemory.com/themes/florida_memory/images/FM_logo_2020.jpg"
+                alt="Florida Memory Logo">
+              <img class="img-fluid highcontrast_logo"
+                src="https://www.floridamemory.com/themes/florida_memory/images/Florida Memory logo 2020 high-contrast.png"
+                alt="Florida Memory Logo" width="350">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" id="swapBtn"><i class="fa fa-bars" aria-hidden="true"></i></span>
+            </button>
+
+            <!-- desktop search bar -->
+            <form class="SearchForm mr-md-auto mr-lg-0 ml-md-0 ml-lg-auto d-none d-lg-block" id="search-form"
+              name="search-form" action="https://www.floridamemory.com/find?" method="get" _lpchecked="1">
+
+              <div class="input-group" id="search-container" role="search">
+                <input type="text" class="form-control" name="keywords" id="query" value="" title="Search..."
+                  placeholder="Search..." size="40">
+                <!--<input type="hidden" name="condition" value="2">-->
+                <div class="input-group-append">
+                  <button class="btn" id="submit_search" type="submit" value="Search"><i class="fa fa-search"
+                      aria-hidden="true"></i></button>
+                </div><!-- input-group-append -->
+              </div><!-- class="input-group" id="search-container" role="search"-->
+            </form>
+          </nav><!--header_contents-->
+
+
+
+          <style>
+            .alt-link-style:hover {
+              color: #FFFFFF !important;
+            }
+
+            #photo .alt-link-style:hover {
+              background-color: #663322 !important;
+            }
+
+            #historical_records .alt-link-style:hover {
+              background-color: #557766 !important;
+            }
+
+            #maps .alt-link-style:hover {
+              background-color: #423928 !important;
+            }
+
+            #audio .alt-link-style:hover {
+              background-color: #B35C01 !important;
+            }
+
+            #about_fm .alt-link-style:hover {
+              background-color: #4F7B99 !important;
+            }
+
+            #classroom .alt-link-style:hover {
+              background-color: #4F7B99 !important;
+            }
+
+            #exhibits .alt-link-style:hover {
+              background-color: #334454 !important;
+            }
+
+            #guides .alt-link-style:hover {
+              background-color: #334454 !important;
+            }
+          </style>
+
+
+          <nav class="navbar navbar-expand-lg" id="main_navbar">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <!--------------- MOBILE SEARCH -------------------->
+              <form class="SearchForm mr-md-auto mr-lg-0 ml-md-0 ml-lg-auto mb-3 d-lg-none" id="search-form"
+                name="search-form" action="https://www.floridamemory.com/find?" method="get" _lpchecked="1">
+
+                <div class="input-group input-group-sm" id="search-container" role="search">
+                  <input type="text" class="form-control" name="keywords" id="query" value="" title="Search..."
+                    placeholder="Search..." size="40">
+                  <!--<input type="hidden" name="condition" value="2">-->
+                  <div class="input-group-append">
+                    <button class="btn" id="submit_search" type="submit" value="Search"><i class="fa fa-search"
+                        aria-hidden="true"></i></button>
+                  </div><!-- input-group-append -->
+                </div><!-- class="input-group" id="search-container" role="search"-->
+              </form>
+
+              <ul class="navbar-nav mr-auto" id="Left_Nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="https://www.floridamemory.com/discover/">
+                    Discover
+                  </a>
+                  <ul class="dropdown-menu backdrop_hover" aria-labelledby="navbarDropdownMenuLink">
+
+                    <li class="dropdown-submenu firstLevel" id="photo"><a class="dropdown-item dropdown-toggle"
+                        href="https://www.floridamemory.com/discover/photographs/">Photographs</a>
+                      <div class="dropdown-menu mega" style="top: -2px;">
+                        <div class="row" id="menuHeader">
+                          <div class="col-sm-12">
+                            <div id="menuTitle" style="background-color:#663322; color:white"><a
+                                href="https://www.floridamemory.com/discover/photographs/">Photographs</a></div>
+                            <!-- menuTitle -->
+                          </div><!-- col-sm-12 -->
+                        </div><!-- row #menuHeader -->
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <ul>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/photographs/about/">About the Florida
+                                  Photographic Collection</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/photographs/collections/">Photo
+                                  Collections</a></li>
+
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/find?keywords=unidentified&advanced%5B0%5D%5Bjoiner%5D=and&advanced%5B0%5D%5Belement_id%5D=240&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=11&advanced%5B1%5D%5Bjoiner%5D=or&advanced%5B1%5D%5Belement_id%5D=102&advanced%5B1%5D%5Btype%5D=contains&advanced%5B1%5D%5Bterms%5D=unknown&advanced%5B2%5D%5Bjoiner%5D=or&advanced%5B2%5D%5Belement_id%5D=41&advanced%5B2%5D%5Btype%5D=contains&advanced%5B2%5D%5Bterms%5D=unknown&layout=1">Share
+                                  Your Knowledge</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/about/disclaimer.php">Disclaimer and
+                                  Copyright</a></li>
+
+                            </ul>
+                          </div><!-- col-sm-12 -->
+
+                        </div><!-- row -->
+                      </div><!-- dropdown-menu mega -->
+                    </li><!-- class="dropdown-submenu firstLevel" id="photo" -->
+
+
+
+
+                    <li class="dropdown-submenu firstLevel" id="historical_records"><a
+                        class="dropdown-item dropdown-toggle"
+                        href="https://www.floridamemory.com/discover/historical_records/">Historical Records</a>
+                      <div class="dropdown-menu mega" style="top: -32px;">
+                        <div class="row" id="menuHeader">
+                          <div class="col-sm-12">
+                            <div id="menuTitle" style="background-color:#557766; color:white"><a
+                                href="https://www.floridamemory.com/discover/historical_records/">Historical Records</a>
+                            </div><!-- menuTitle -->
+                          </div><!-- col-sm-12 -->
+                        </div><!-- row #menuHeader -->
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <ul>
+
+                              <li>
+                                <a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/historical_records/election1867/">Voter
+                                  Registration Rolls, 1867-68</a>
+                                <h6 class="dropdown-header bottom">Reconstruction era voting records</h6>
+                              </li>
+
+                              <li>
+                                <a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/historical_records/early-autos/">Early
+                                  Auto Registrations, 1905-1917</a>
+                                <h6 class="dropdown-header bottom">Florida's first automobile registrations</h6>
+                              </li>
+
+                              <li>
+                                <a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/historical_records/constitution/">Florida's
+                                  Historic Constitutions</a>
+                                <h6 class="dropdown-header bottom">Milestones in Florida's political framework</h6>
+                              </li>
+
+                              <li>
+                                <a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/historical_records/selected_documents/">Selected
+                                  Documents</a>
+                                <h6 class="dropdown-header bottom">Letters, ephemera and other historical records</h6>
+                              </li>
+
+                              <li>
+                                <a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/historical_records/governor-records/">Florida
+                                  Governors' Records</a>
+                                <h6 class="dropdown-header bottom">Documenting Florida's chief executive officers</h6>
+                              </li>
+
+                              <li>
+                                <a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/historical_records/">VIEW ALL</a>
+                              </li>
+
+                            </ul>
+                          </div><!-- col-sm-12 -->
+
+                        </div><!-- row -->
+                      </div><!-- dropdown-menu mega -->
+                    </li><!-- class="dropdown-submenu firstLevel" id="Historical Documents" -->
+
+
+
+                    <li class="dropdown-submenu firstLevel" id="maps"><a class="dropdown-item dropdown-toggle"
+                        href="https://www.floridamemory.com/discover/maps/">Maps</a>
+                      <div class="dropdown-menu mega" style="top: -62px;">
+                        <div class="row" id="menuHeader">
+                          <div class="col-sm-12">
+                            <div id="menuTitle" style="background-color:#423928; color:white"><a
+                                href="https://www.floridamemory.com/discover/maps/">Maps</a></div><!-- menuTitle -->
+                          </div><!-- col-sm-12 -->
+                        </div><!-- row #menuHeader -->
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <ul>
+                              <li> <a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/maps/scope.php">Browse by Geographic
+                                  Scope</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/maps/coverage.php">Browse by Coverage</a>
+                              </li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/maps/image.php">Browse by Image</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/maps/format.php">Browse by Format</a>
+                              </li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/maps/subject.php">Browse by Subject</a>
+                              </li>
+
+                            </ul>
+                          </div><!-- col-sm-12 -->
+
+                        </div><!-- row -->
+                      </div><!-- dropdown-menu mega -->
+                    </li><!-- class="dropdown-submenu firstLevel" id="Maps" -->
+
+
+                    <li class="dropdown-submenu firstLevel" id="audio"><a class="dropdown-item dropdown-toggle"
+                        href="https://www.floridamemory.com/discover/audio/">Audio</a>
+                      <div class="dropdown-menu mega" style="top: -92px;">
+                        <div class="row" id="menuHeader">
+                          <div class="col-sm-12">
+                            <div id="menuTitle" style="background-color:#B35C01; color:white"><a
+                                href="https://www.floridamemory.com/discover/audio/">Audio</a></div><!-- menuTitle -->
+                          </div><!-- col-sm-12 -->
+                        </div><!-- row #menuHeader -->
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <ul>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/audio2/folklife/">Florida Folklife
+                                  Program Recordings</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/audio2/folk-festival/">Florida Folk
+                                  Festival Recordings</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/audio2/wpa/">WPA Recordings</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/audio2/selected-audio/">Selected
+                                  Audio</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/discover/audio/radio/">Florida Memory Radio</a>
+                              </li>
+                            </ul>
+                          </div><!-- col-sm-12 -->
+
+                        </div><!-- row -->
+                      </div><!-- dropdown-menu mega -->
+                    </li><!-- class="dropdown-submenu firstLevel" id="audio" -->
+                    <style>
+                      #video a:after {
+                        display: none;
+                      }
+                    </style>
+                    <li class="dropdown-submenu firstLevel" id="video"><a class="dropdown-item dropdown-toggle"
+                        href="https://www.floridamemory.com/discover/video/">Video</a></li>
+                    <!-- class="dropdown-submenu firstLevel" id="video" -->
+
+
+                  </ul><!-- dropdown-menu backdrop_hover / Learn Dropdown-Menu -->
+                </li><!-- nav-item dropdown / Learn Option -->
+
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="https://www.floridamemory.com/learn/">
+                    Learn
+                  </a>
+                  <ul class="dropdown-menu backdrop_hover" aria-labelledby="navbarDropdownMenuLink2">
+
+                    <li class="dropdown-submenu firstLevel" id="about_fm"><a class="dropdown-item dropdown-toggle"
+                        href="https://www.floridamemory.com/learn/about/">About Florida Memory</a>
+                      <div class="dropdown-menu mega" style="top: -2px;">
+                        <div class="row" id="menuHeader">
+                          <div class="col-sm-12">
+                            <div id="menuTitle" style="background-color:#4F7B99; color:white"><a
+                                href="https://www.floridamemory.com/learn/about/">About Florida Memory</a></div>
+                            <!-- menuTitle -->
+                          </div><!-- col-sm-12 -->
+                        </div><!-- row #menuHeader -->
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <ul>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/about/">Founding and Mission</a></li>
+
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/about/selections.php">What We Select</a>
+                              </li>
+
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/about/guidelines.php">Digitization
+                                  Guidelines</a></li>
+
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/about/disclaimer.php">Disclaimer and
+                                  Copyright</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/about/partnerships.php">Partnerships</a>
+                              </li>
+
+
+
+                            </ul>
+                          </div><!-- col-sm-12 -->
+
+                        </div><!-- row -->
+                      </div><!-- dropdown-menu mega -->
+                    </li>
+
+                    <li class="dropdown-submenu firstLevel" id="classroom"><a class="dropdown-item dropdown-toggle"
+                        href="https://www.floridamemory.com/learn/classroom/">Classroom</a>
+                      <div class="dropdown-menu mega" style="top: -32px;">
+                        <div class="row" id="menuHeader">
+                          <div class="col-sm-12">
+                            <div id="menuTitle" style="background-color:#4F7B99; color:white"><a
+                                href="https://www.floridamemory.com/learn/classroom/">Classroom</a></div>
+                            <!-- menuTitle -->
+                          </div><!-- col-sm-12 -->
+                        </div><!-- row #menuHeader -->
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <ul>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/classroom/learning-units/">Learning
+                                  Units</a></li>
+
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/classroom/primary-source-sets/">Primary
+                                  Source Sets</a></li>
+
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/classroom/history-day/">Florida History
+                                  Day</a></li>
+
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/classroom/history-months/">History
+                                  Months</a></li>
+
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/classroom/projects/">Projects</a></li>
+
+
+                            </ul>
+                          </div><!-- col-sm-12 -->
+
+                        </div><!-- row -->
+                      </div><!-- dropdown-menu mega -->
+                    </li>
+
+
+                    <style>
+                      #fl_articles a:after {
+                        display: none;
+                      }
+                    </style>
+                    <li class="dropdown-submenu firstLevel" id="fl_articles"><a class="dropdown-item dropdown-toggle"
+                        href="https://www.floridamemory.com/learn/floridiana/">Floridiana Articles</a></li>
+
+
+
+                    <li class="dropdown-submenu firstLevel" id="exhibits"><a class="dropdown-item dropdown-toggle"
+                        href="https://www.floridamemory.com/learn/exhibits/">Exhibits</a>
+                      <div class="dropdown-menu mega" style="top: -92px;">
+                        <div class="row" id="menuHeader">
+                          <div class="col-sm-12">
+                            <div id="menuTitle" style="background-color:#334454; color:white"><a
+                                href="https://www.floridamemory.com/learn/exhibits/">Exhibits</a></div>
+                            <!-- menuTitle -->
+                          </div><!-- col-sm-12 -->
+                        </div><!-- row #menuHeader -->
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <ul>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/exhibits/floridahighlights/">Significant
+                                  Documents</a></li>
+
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/exhibits/wwi/">Florida in World War I</a>
+                              </li>
+
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/exhibits/wwii/">Florida in World War II</a>
+                              </li>
+
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/exhibits/floridamaps/">Florida Maps: Then &
+                                  Now</a></li>
+
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/exhibits/florida-folklife/">Florida Folklife
+                                  Collection</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/exhibits/koreshan/">The Koreshan Unity</a>
+                              </li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/exhibits/daguerreotype/">Daguerreotype to
+                                  Digital</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/exhibits/timeline/">Timeline</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/exhibits/photo_exhibits/">Photo Exhibits</a>
+                              </li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/exhibits/">VIEW ALL</a></li>
+                            </ul>
+                          </div><!-- col-sm-12 -->
+
+                        </div><!-- row -->
+                      </div><!-- dropdown-menu mega -->
+                    </li>
+
+
+                    <li class="dropdown-submenu firstLevel" id="guides"><a class="dropdown-item dropdown-toggle"
+                        href="https://www.floridamemory.com/learn/research-tools/">Research Tools</a>
+                      <div class="dropdown-menu mega" style="top: -122px;">
+                        <div class="row" id="menuHeader">
+                          <div class="col-sm-12">
+                            <div id="menuTitle" style="background-color:#1F4D5F; color:white"><a
+                                href="https://www.floridamemory.com/learn/research-tools/">Research Tools</a></div>
+                            <!-- menuTitle -->
+                          </div><!-- col-sm-12 -->
+                        </div><!-- row #menuHeader -->
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <ul>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/research-tools/guides/governors/">Guide to
+                                  Florida Governors and the Florida Cabinet</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/research-tools/guides/civilwarguide/">Guide
+                                  to Civil War Records</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/research-tools/guides/blackexperience/">Guide
+                                  to African American Records</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/research-tools/guides/womenhistory/">Guide
+                                  to Women's History Records</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/research-tools/guides/newdealguide/">Guide
+                                  to New Deal Records</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/research-tools/guides/koreshan/">Guide to
+                                  the Koreshan Unity Papers</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/research-tools/guides/genealogy/">Guide to
+                                  Genealogical Research</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/research-tools/guides/film/catalog.php">Guide
+                                  to Florida Films</a></li>
+                              <li><a class="dropdown-item alt-link-style"
+                                  href="https://www.floridamemory.com/learn/research-tools/">VIEW ALL</a></li>
+                            </ul>
+                          </div><!-- col-sm-12-->
+                        </div><!-- row -->
+                      </div><!-- dropdown-menu mega -->
+                    </li>
+
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown" id="share">
+                  <a class="nav-link dropdown-toggle" href="https://www.floridamemory.com/share/">
+                    Share
+                  </a>
+                  <ul class="dropdown-menu backdrop_hover" aria-labelledby="navbarDropdownMenuLink3">
+                    <li class="dropdown-submenu firstLevel"><a class="dropdown-item"
+                        href="https://www.floridamemory.com/share/order-info/index.php">Order</a></li>
+                    <li class="dropdown-submenu firstLevel"><a class="dropdown-item"
+                        href="https://www.floridamemory.com/share/connect/">Connect With Us</a></li>
+                    <li class="dropdown-submenu firstLevel"><a class="dropdown-item"
+                        href="https://www.floridamemory.com/share/donate/">Donate Records</a></li>
+                    <!--<li class="dropdown-submenu firstLevel"><a class="dropdown-item" href="#">Transcribe</a></li>-->
+                  </ul><!-- dropdown-menu backdrop_hover -->
+                </li>
+              </ul>
+              <style>
+                #ADA_btn {
+                  font-size: 24px !important;
+                }
+
+                /* The Modal (background) */
+                .ada_modal {
+                  display: none;
+                  /* Hidden by default */
+                  position: fixed;
+                  /* Stay in place */
+                  z-index: 2;
+                  /* Sit on top */
+                  left: 0;
+                  top: 0;
+                  width: 100%;
+                  /* Full width */
+                  height: 100%;
+                  /* Full height */
+                  overflow: auto;
+                  /* Enable scroll if needed */
+                  background-color: rgb(0, 0, 0);
+                  /* Fallback color */
+                  background-color: rgba(0, 0, 0, 0.4);
+                  /* Black w/ opacity */
+                }
+
+                /* Modal Content */
+                .ada_modal .modal_content {
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  background-color: #fefefe;
+                  margin: auto;
+                  border: 1px solid rgba(0, 0, 0, .2);
+                  border-radius: .3rem;
+                  width: 100%;
+                  max-width: 500px;
+                  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                }
+
+                .modal_content .modal_header {
+                  padding: 1rem 1rem;
+                  border-bottom: 1px solid #dee2e6;
+                }
+
+                .modal_content .modal_header .title {
+                  display: inline-block;
+                  margin-bottom: 0;
+                }
+
+                /* The Close Button */
+                .ada_modal .close_modal {
+                  font-size: 1.5rem;
+                  font-weight: 700;
+                  line-height: 1;
+                  color: #aaaaaa;
+                  float: right;
+                  display: inline-block;
+                }
+
+                .ada_modal .close_modal:hover,
+                .ada_modal .close_modal:focus {
+                  color: #000;
+                  text-decoration: none;
+                  cursor: pointer;
+                }
+
+                .ada_modal .modal_body {
+                  padding: 1rem;
+                  border-top: 1px solid #dee2e6;
+                }
+
+                .highcontrast .ada_modal .modal_content {
+                  background-color: #7d7d7d;
+                }
+
+                .highcontrast .ada_modal .modal_content #accessibility .form-check ul li {
+                  background-color: #7d7d7d;
+                }
+
+                .inverted .ada_modal .modal_content {
+                  background-color: #2C2C2C;
+                }
+
+                @media screen and (max-width:1024px) {
+                  .fontSizeMedium .ada_modal .modal_body {
+                    max-height: 500px;
+                    overflow-y: auto;
+                  }
+
+                  /* width */
+                  .fontSizeMedium .ada_modal .modal_body::-webkit-scrollbar {
+                    width: 8px;
+                    height: 8px;
+                    background: #ddd;
+                  }
+
+                  /* Track */
+                  .fontSizeMedium .ada_modal .modal_body::-webkit-scrollbar-track {
+                    background: #ddd;
+                    border-radius: 20px;
+                  }
+
+                  /* Handle */
+                  .fontSizeMedium .ada_modal .modal_body::-webkit-scrollbar-thumb {
+                    background: #acacac;
+                    border-radius: 2px;
+                    border: 0 solid #000;
+                  }
+
+                  .fontSizeMedium .ada_modal .modal_body::-webkit-scrollbar-corner {
+                    background: 0 0;
+                  }
+
+                  /* Handle on hover */
+                  .fontSizeMedium .ada_modal .modal_body::-webkit-scrollbar-thumb:hover {
+                    background: #4D4D4D;
+                  }
+
+                  .fontSizeMedium .ada_modal .modal_body::-webkit-scrollbar-track-piece {
+                    background: #ffff;
+                    border-radius: 0px;
+                  }
+                }
+
+                #cartModal {
+                  width: 100%;
+                }
+
+                #CartIcon>a {
+                  padding-top: 0.7rem !important;
+                  font-size: 19px;
+                }
+
+                .HideCart {
+                  display: none;
+                }
+
+                .ShowCart {
+                  display: block;
+                }
+              </style>
+
+              <script>
+                $(document).ready(function () {
+
+                  //https://stackoverflow.com/questions/16795130/twitter-bootstrap-modal-and-jquery-cookie-plugin
+
+                  var expireDate = new Date();
+                  var hours = 36;
+                  expireDate.setTime(expireDate.getTime() + (hours * 3600 * 1000));
+
+
+                  // Check (onLoad) if the cookie is there and set the class if it is
+                  if ($.cookie('ShoppingCartCookie') == "yes") {
+                    $("#CartIcon").addClass("ShowCart");
+                    $("#CartIcon").removeClass("HideCart");
+                  }
+                  else {
+                    $("#CartIcon").removeClass("ShowCart");
+                    $("#CartIcon").addClass("HideCart");
+                  }
+                  // When the element is clicked
+                  $("#button-cart,#button-cart2").click(function () {
+                    if ($.cookie('ShoppingCartCookie') == "undefined" || $.cookie('ShoppingCartCookie') == "no") {
+                      $.cookie('ShoppingCartCookie', 'yes', {
+                        expires: expireDate,
+                        path: '/'
+                      });
+                      $("#CartIcon").addClass("ShowCart");
+                      $("#CartIcon").removeClass("HideCart");
+                    } else {
+                      $.cookie('ShoppingCartCookie', 'yes', {
+                        expires: expireDate,
+                        path: '/'
+                      });
+                      $("#CartIcon").removeClass("ShowCart");
+                      $("#CartIcon").addClass("HideCart");
+                    }
+                  });
+
+                  $("#cartModal .modal-dialog").addClass("modal-dialog-centered");
+                });
+
+
+              </script>
+              <ul class="nav" id="Right_Nav">
+                <li class="nav-item" style="display:none;">
+                  <a class="nav-link active" href="FMP/shop/index.php?route=account/login" title="Account"><i
+                      class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                </li>
+
+                <li class="nav-item HideCart" id="CartIcon">
+                  <a type="button" class="btn btn-link" data-toggle="modal" href="#cartModal" title="View Cart">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  </a>
+                </li>
+
+                <li class="nav-item" id="settings_dropdown">
+                  <a class="nav-link" href="#!" id="ADA_btn" title="Accessibility Menu"><i
+                      class="fa fa-universal-access" aria-hidden="true"></i></a>
+                </li>
+
+                <!-- The Modal -->
+                <div id="ADAModal" class="ada_modal">
+
+                  <!-- Modal content -->
+                  <div class="modal_content">
+                    <div class="modal_header">
+                      <h5 class="title">Accessibility Menu</h5>
+                      <span class="close_modal">×</span>
+                    </div>
+                    <div class="modal_body" id="accessibility">
+                      <form class="bg_form" style="border-top:none;">
+                        <h6>Change Background Color</h6>
+                        <div class="form-check">
+                          <ul>
+                            <li id="DefaultBG_option" class="active"><a href="#!"
+                                class="backgroundOptions defaultBackground">Default</a></li>
+                            <li id="DarkContrast_option"><a href="#!"
+                                class="backgroundOptions DarkContrastBackground">Dark Contrast</a></li>
+                            <li id="DesaturateBackgroundoption"><a href="#!"
+                                class="backgroundOptions DesaturateBackground">Desaturate</a></li>
+                            <li id="InvertBackgroundoption"><a href="#!"
+                                class="backgroundOptions InvertBackground">Invert</a></li>
+                          </ul>
+                        </div><!-- form check -->
+                      </form>
+
+                      <form class="fontsize_form">
+                        <h6>Change Font-Size</h6>
+                        <div class="form-check">
+                          <ul>
+                            <li id="FS_Default" class="active"><a href="#!"
+                                class="FontSizeOptions FontSizeDefault">Default</a></li>
+                            <li id="FS_Medium"><a href="#!" class="FontSizeOptions FontSizeMedium">Large</a></li>
+                          </ul>
+                        </div><!-- form check -->
+                      </form>
+
+                      <form class="font_type_form">
+                        <h6>Change Font</h6>
+                        <div class="form-check">
+                          <ul>
+                            <li id="FT_Default" class="active"><a href="#!"
+                                class="FontTypeOptions FontTypeDefault">Muli</a></li>
+                            <li id="FT_Dyslexic"><a href="#!" class="FontTypeOptions FontTypeDyslexic">Open-Dyslexic</a>
+                            </li>
+                          </ul>
+                        </div><!-- form check -->
+                      </form>
+
+
+                      <form class="cursorSwap_form">
+                        <h6>Cursor</h6>
+                        <div class="form-check">
+                          <ul>
+                            <li id="Cur_Default" class="active"><a href="#!"
+                                class="CursorOptions CursorDefault">Default</a></li>
+                            <li id="Cur_Enlarge"><a href="#!" class="CursorOptions CursorEnlarge">Large</a></li>
+                            <li id="Cur_ReadingGuide"><a href="#!" class="CursorOptions CursorReadingGuide">Reading
+                                Guide</a></li>
+                          </ul>
+                        </div><!-- form check -->
+                      </form>
+
+
+                      <form class="HighlightLinks_form">
+                        <h6>Highlight Links</h6>
+                        <div class="form-check">
+                          <ul>
+                            <li id="Link_HighlightON"><a href="#!" class="ToggleHighlightOptions HighlightON">On</a>
+                            </li>
+                            <li id="Link_HighlightOFF" class="active"><a href="#!"
+                                class="ToggleHighlightOptions HighlightOFF">Off</a></li>
+                          </ul>
+                        </div><!-- form check -->
+                      </form>
+                    </div><!-- modal_body -->
+                  </div><!-- modal_content -->
+
+                </div><!-- id="ADAModal" class="ada_modal" -->
+
+
+              </ul><!-- class="nav" id="Right_Nav" -->
+
+
+            </div><!-- class="collapse navbar-collapse" id="navbarNavDropdown" -->
+          </nav>
+        </div><!--end col-sm-12-->
+      </div><!--end row-->
+    </div> <!-- class="container-fluid fixed-top defaultNav" id="navContainer" -->
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("ADAModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("ADA_btn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close_modal")[0];
+
+      // When the user clicks the button, open the modal
+      btn.onclick = function () {
+        modal.style.display = "block";
+        $("body").css("overflow", "hidden");
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+        $("body").css("overflow", "auto");
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+          $("body").css("overflow", "auto");
+        }
+      }
+    </script>
+
+
+
+    <div class="backdrop"></div>
+    <div id="view">
+
+      <div id="tail" style="left: 0px; top: 353px;"></div>
+
+      <style type="text/css">
+        #cart-window {
+          width: 100%;
+        }
+
+        .mini-cart-info td.total {
+          text-align: right;
+        }
+
+        .mini-cart-info td {
+          color: #000;
+          vertical-align: top;
+          padding: 10px 5px;
+          border-bottom: 1px solid #EEEEEE;
+        }
+
+        .mini-cart-info .image {
+          width: 1px;
+        }
+
+        .mini-cart-info table {
+          border-collapse: collapse;
+          width: 100%;
+          margin-bottom: 5px;
+        }
+
+        .mini-cart-info .Quantity {
+          text-align: right;
+        }
+
+        .mini-cart-info .remove {
+          text-align: right;
+        }
+
+        #cart-window tr {
+          border-bottom: 1px solid #666;
+        }
+
+        .product-info {
+          font-size: 0.9em;
+        }
+
+        .product-options {
+          font-size: 0.8em;
+        }
+
+        .Quantity {
+          font-size: 0.8em;
+        }
+
+        .empty-cart {
+          font-style: italic;
+          font-size: 0.8em;
+        }
+
+        .modal {
+          width: 600px;
+
+        }
+
+        .mini-cart-info .Price {
+          font-size: 0.9em;
+        }
+      </style>
+
+
+      <!--<script src="https://www.floridamemory.com//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://www.floridamemory.com//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+
+      <!-- <script type="text/javascript">
+    //The following are the product IDs from OpenCart for the items offered by Florida Memory
+    //These need to be updated to match what is in the database.
+    var printSize = 50;
+    var imageRez = 51;
+    var mapPrintSize = 52;
+    var highRezScan = 53;
+
+    //jQuery.noConflict();
+    $(function() {
+      //Call the function that updates the cart
+      updateCart();
+    });
+
+    function updateQuickCart(cString) {
+          //Clear the existing message and reupdate it.
+          $("#cart-qty").empty();
+          $("#cart-qty").append(cString);
+    }
+
+    function updateCart(cartStr) {
+          jQuery.ajax({
+        url:'/share/order/index.php?route=common/minicart',
+        type: 'get',
+        data: '',
+        dataType: 'json',
+        success: function(json) {
+
+          if (json.products.length != 0) {
+            //Clear all elements inside the cart and redeploy
+            var targetNode = document.getElementById("cart-window");
+            while (targetNode.firstChild) {
+              targetNode.removeChild(targetNode.firstChild);
+            }
+
+            //console.log(cartStr);
+            newTotalQty = json.TotalQuantity + " item(s)";
+            updateQuickCart(newTotalQty);
+
+            for (i = 0; i < json.products.length; i++)
+            {
+              var productItem = "";
+              var productName = json.products[i].name;
+              var imageTitle = "";
+              var imageNumber = "";
+              var imageResolution = "";
+              var imageSepia = "";
+              var imagePrintSize = "";
+              var mapNumber = "";
+              var mapTitle = "";
+              var mapPrintSizeOption = "";
+              var mapItem = false;
+
+              for (j = 0; j < json.products[i].option.length; j++)
+              {
+                //Image Number
+                if (json.products[i].option[j].name == "Image Number")
+                {
+                  imageNumber = json.products[i].option[j].value;
+                }
+
+                //Image Title
+                if (json.products[i].option[j].name == "Image Title")
+                {
+                  imageTitle = json.products[i].option[j].value;
+                }
+
+                //Image Resolution
+                if (json.products[i].option[j].name == "Image Resolution")
+                {
+                  imageResolution = json.products[i].option[j].value;
+                }
+
+                //Sepia
+                if (json.products[i].option[j].name == "Sepia")
+                {
+                  imageSepia = json.products[i].option[j].value;
+                }
+
+                //Print Size
+                if (json.products[i].option[j].name == "Print Size")
+                {
+                  imagePrintSize = json.products[i].option[j].value;
+                }
+
+                //Map Number
+                if (json.products[i].option[j].name == "Map Number")
+                {
+                  imageNumber = json.products[i].option[j].value;
+                  mapNumber = imageNumber;
+                  mapItem = true;
+                }
+
+                //Map Title
+                if (json.products[i].option[j].name == "Map Title")
+                {
+                  imageTitle = json.products[i].option[j].value;
+                  mapTitle = json.products[i].option[j].value;
+                }
+
+                //Map Print Size
+                if (json.products[i].option[j].name == "Map Print Size")
+                {
+                  mapPrintSizeOption = json.products[i].option[j].value;
+                }
+              }
+              console.log(json.products[i].product_id);
+              productItem += "<tr><td><a href=\"https://www.floridamemory.com/find?advanced%5B0%5D%5Bjoiner%5D=and&advanced%5B0%5D%5Belement_id%5D=240&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=37&advanced%5B1%5D%5Bjoiner%5D=and&advanced%5B1%5D%5Belement_id%5D=43&advanced%5B1%5D%5Btype%5D=contains&advanced%5B1%5D%5Bterms%5D=" + imageNumber + "&layout=1\">";
+              if(mapItem == true)
+              {
+                productItem += "<img src=\"https://www.floridamemory.com/FMP/maps/thumbnails/" + imageNumber + ".jpg\" width=\"80\" alt=\"" + imageTitle + "\" hspace=\"4\" title=\"" + imageTitle + "\" align=\"left\" /></a></td>";
+
+              }
+              else
+              {
+                productItem += "<img src=\"https://www.floridamemory.com/fpc/thumbnails_jpg/" + imageNumber + ".jpg\" width=\"80\" alt=\"" + imageTitle + "\" hspace=\"4\" title=\"" + imageTitle + "\" align=\"left\" /></a></td>";
+              }
+
+              productItem += "<td class=\"product-name\"><span class=\"product-info\">";
+              productItem += "<a href=\"https://www.floridamemory.com/find?advanced%5B0%5D%5Bjoiner%5D=and&advanced%5B0%5D%5Belement_id%5D=240&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=11&advanced%5B1%5D%5Bjoiner%5D=and&advanced%5B1%5D%5Belement_id%5D=43&advanced%5B1%5D%5Btype%5D=contains&advanced%5B1%5D%5Bterms%5D=" + imageNumber +  "&layout=1\">" + json.products[i].name + "</a></span><br />";
+              productItem += "<span class=\"product-options\">";
+
+              if(json.products[i].product_id == printSize)
+              {
+                productItem += "<strong>Image Title</strong>: " + imageTitle + "<br />";
+                productItem += "<strong>Image Number</strong>: " + imageNumber + "<br />";
+                productItem += "<strong>Print Size</strong>: " + imagePrintSize + "<br />";
+              }
+              if(json.products[i].product_id == imageRez)
+              {
+                productItem += "<strong>Image Title</strong>: " + imageTitle + "<br />";
+                productItem += "<strong>Image Number</strong>: " + imageNumber + "<br />";
+                productItem += "<strong>Image Resolution</strong>: " + imageResolution + "<br />";
+              }
+              if(json.products[i].product_id == mapPrintSize)
+              {
+                productItem += "<strong>Map Title</strong>: " + mapTitle + "<br />";
+                productItem += "<strong>Map Number</strong>: " + mapNumber + "<br />";
+                productItem += "<strong>Map Print Size</strong>: " + mapPrintSizeOption + "<br />";
+              }
+              if(json.products[i].product_id == highRezScan)
+              {
+                productItem += "<strong>Map Title</strong>: " + mapTitle + "<br />";
+                productItem += "<strong>Map Number</strong>: " + mapNumber + "<br />";
+                productItem += "<strong>Map Resolution</strong>: High Resolution<br />";
+              }
+
+              productItem += "</span></td>";
+              productItem += "<td class=\"Quantity\" valign=\"top\">Qty: x"+ json.products[i].quantity + "</td>";
+              productItem += "<td class=\"Price\" valign=\"top\">"+ json.products[i].price + "</td></tr>";
+
+              $('#cart-window').append(productItem);
+            }
+
+            totalItems = "<tr><td colspan=\"4\">" + json.text_items + "</td></tr>";
+
+            $('#cart-window').append(totalItems);
+
+          }   //If the JSON is empty (nothing in the cart, we run this instead
+          else {
+            //Clear all elements inside the cart and redeploy
+            var targetNode = document.getElementById("cart-window");
+            while (targetNode.firstChild) {
+              targetNode.removeChild(targetNode.firstChild);
+            }
+
+            //Display a 0 cart link
+            newTotalQty = "0 item(s)";
+            updateQuickCart(newTotalQty);
+
+            //Display the empty cart message ane links to the shopping cart system.
+            $('#cart-window').append("<tr><td colspan=\"2\" class=\"empty-cart\">Shopping cart is empty</td></tr>");
+          }
+        }
+          });
+    }
+  </script> -->
+
+      <div class="modal hide fade" id="cartModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Shopping Cart</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body mini-cart-info">
+              <table id="cart-window">
+                <tbody>
+                  <tr>
+                    <td colspan="2" class="empty-cart">Shopping cart is empty</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <a href="https://www.floridamemory.com/share/order/index.php?route=checkout/cart" class="btn">View
+                Cart</a>
+              <a href="https://www.floridamemory.com/share/order/index.php?route=checkout/checkout"
+                class="btn btn-primary">Checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn" type="button" href="#" id="Scroll_btn" title="Top of Page"><i class="fa fa-arrow-up"
+          aria-hidden="true"></i></button>
+      <script>
+        //button to scroll back to top
+        $(document).ready(function () {
+
+          $(window).scroll(function () {
+            if ($(this).scrollTop() > 300) {
+              $('#Scroll_btn').addClass('show_btn');
+            } else {
+              $('#Scroll_btn').removeClass('show_btn');
+            }
+          });
+
+          $('#Scroll_btn').click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 400);
+            return false;
+          });
+
+        });
+      </script>
+
+      <style>
+        #pageGuideModal .modal-dialog {
+          max-width: 100% !important;
+          width: 100% !important;
+          margin: 0 !important;
+          height: 100% !important;
+        }
+
+        #pageGuideModal .modal-content {
+          height: 100% !important;
+          background-color: rgba(0, 0, 0, 0.55);
+          border: none;
+          border-radius: 0;
+        }
+      </style>
+
+
+
+
+      <script>
+        // Toggles icon on navbar in mobile
+        $(document).ready(function () {
+          $('#swapBtn').click(function () {
+            $('#swapBtn > i').toggleClass('fa-bars fa-times');
+          });
+        });
+      </script>
+
+      <style>
+        .header_divider {
+          height: 146px;
+        }
+
+        @media screen and (max-width:992px) {
+          .header_divider {
+            height: 75px;
+          }
+        }
+
+        @media screen and (max-width:476px) {
+          .header_divider {
+            height: 93px;
+          }
+        }
+
+        @media screen and (max-width:375px) {
+          .header_divider {
+            height: 82px;
+          }
+        }
+
+        @media screen and (max-width:320px) {
+          .header_divider {
+            height: 123px;
+          }
+        }
+
+        @media screen and (max-width: 992px) and (orientation: landscape) {
+          .header_divider {
+            height: 70px;
+          }
+        }
+      </style>
+      <!-- adds space between header and content -->
+      <div class="header_divider"></div>
+      <script>
+        /* Add transparent backdrop when hover over on header navbar dropdown menu */
+        $(window).on('resize', function () {
+          if ($(window).outerWidth() > 1000) {
+            $('.backdrop_hover').on('mouseover', function () {
+              $('.backdrop').show();
+            });
+            $('.backdrop_hover').on('mouseout', function () {
+              $('.backdrop').hide();
+            });
+          }
+        });
+        $(window).load(function () {
+          if ($(window).outerWidth() > 1000) {
+            $('.backdrop_hover').on('mouseover', function () {
+              $('.backdrop').show();
+            });
+            $('.backdrop_hover').on('mouseout', function () {
+              $('.backdrop').hide();
+            });
+          }
+        });
+
+      </script>
+
+      <script>
+        //Keeps dropdown menu open when clicking another button/link inside menu
+        $(document).on('click', '#ada_dropdown', function (e) {
+          e.stopPropagation();
+        });
+
+      </script>
+
+
+
+
+
+      <script>
+        //BASED OFF CURRENT PAGE URL, ADDS ACTIVE_PAGE CLASS TO LI.NAV-ITEM
+        $(document).ready(function () {
+          var pathname = window.location.pathname;
+          $("#side-nav > li > a").each(function () {
+            var $this = $(this);
+            if ($this.attr("href") === pathname) {
+              $this.parent().addClass("active_page");
+            }
+          });
+        });
+      </script>
+
+      <script>
+        //BASED OFF CURRENT PAGE URL, ADDS ACTIVE_PAGE CLASS TO LI.NAV-ITEM INSIDE SIDENAV COLLAPSE LIST
+        $(document).ready(function () {
+          var pathname = window.location.pathname;
+          $("#side-nav > li > div > ul.collapse_list > li.nav-item > a").each(function () {
+            var $this = $(this);
+            if ($this.attr("href") === pathname) {
+              $this.parent().addClass("active_page");
+            }
+          });
+        });
+      </script>
+
+      <script>
+        //BASED OFF CURRENT PAGE URL, ADDS ACTIVE_PAGE CLASS TO LI.NAV-ITEM TO MOBILE SIDE NAV
+        $(document).ready(function () {
+          var pathname = window.location.pathname;
+          $("#mobile_navigation > ul > li > a").each(function () {
+            var $this = $(this);
+            if ($this.attr("href") === pathname) {
+              $this.parent().addClass("active_page");
+            }
+          });
+        });
+      </script>
+
+
+      <script>
+        //BASED OFF CURRENT PAGE URL, ADDS ACTIVE CLASS TO A.DROPDOWN-ITEM TO BREADCRUMB DROPDOWN
+        $(document).ready(function () {
+          var pathname = window.location.pathname;
+          $(".BC_MENU > .dropdown-menu.breadcrumb_dropdownmenu > a.dropdown-item").each(function () {
+            var $this = $(this);
+            if ($this.attr("href") === pathname) {
+              $this.addClass("active");
+            }
+          });
+        });
+      </script>
+
+      <script>
+        //AVANT SEARCH RESULTS PAGE; ADDING TITLE TO LAYOUT OPTIONS BUTTON
+        $(document).ready(function () {
+          $(".search-results-layout-options-button").attr("title", "View by grid or list");// you can use prop() also
+        });
+      </script>
+
+
+      <script>
+        //ICON TOGGLE FOR DROPDOWN MENU/SIDE NAV FOR COLLECTIONS, EXHIBITS, ETC also found in footer.php
+        //6/30/2020 changed to show menu on load
+        /*
+        $(document).ready(function(){
+        $("#openNavBtn").removeClass('collapsed');
+        $("#openNavBtn > i").removeClass("fa-bars");
+        $("#openNavBtn > i").addClass("fa-times");
+        $("#menudropdown").addClass('show');
+        $("#side-nav").removeClass("d-none");
+        $("#side-nav").removeClass("d-lg-block");
+
+        $("#openNavBtn").click(function(){
+          $("#openNavBtn > i").toggleClass("fa-times fa-bars");
+        });
+      */
+
+
+
+        //Keeps dropdown menu open when clicking another button/link inside menu
+        $(document).on('click', '.dropdown-menu', function (e) {
+          e.stopPropagation();
+          //})
+        });
+
+
+
+
+      </script>
+
+
+      <!--<script data-require="jquery" data-semver="2.1.1" src="https://www.floridamemory.com//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/20140216/jquery.cycle2.min.js"></script>-->
+
+      <!-- Facebook script -->
+      <div id="fb-root" class=" fb_reset">
+        <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+          <div></div>
+        </div>
+      </div>
+      <script>(function (d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+      <script>
+        $(document).ready(function () {
+          $(".imageInfo").click(function () {
+            $(".text-block").toggle();
+          });
+        });
+
+        //screen less than 600px show imageInfo button else show text-block
+        $(window).on('resize', function () {
+          if ($(window).width() < 992) {
+            $('.imageInfo').show();
+            $('.text-block').hide();
+
+          } else {
+            $('.text-block').show();
+            $('.imageInfo').hide();
+
+          }
+        });
+
+        $(window).load(function () {
+          if ($(window).width() < 992) {
+            $('.imageInfo').show();
+            $('.text-block').hide();
+
+          } else {
+            $('.text-block').show();
+            $('.imageInfo').hide();
+
+          }
+        });
+      </script>
+
+      <style>
+        #view {
+          margin-top: 0 !important;
+          background: #E7E3DD;
+        }
+
+        #myContainer {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          background: white;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+
+        @media screen and (max-width:992px) {
+          .text-block2 {
+            display: none !important;
+          }
+        }
+
+        .side-lines--single {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          text-align: center;
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+
+        .side-lines--single:before,
+        .side-lines--single:after {
+          content: '';
+          flex: 1;
+          width: 100%;
+          height: 2px;
+          background-color: #E6CE20;
+        }
+
+        .side-lines--single:before {
+          margin-right: 1rem;
+        }
+
+        .side-lines--single:after {
+          margin-left: 1rem;
+        }
+
+        .fontSizeMedium .text-block2 {
+          height: 259px;
+        }
+
+        .text-block2 {
+          position: absolute;
+          bottom: 100px;
+          left: 10px;
+          background-color: rgba(0, 0, 0, 0.8);
+          padding: 15px 0 30px;
+          font-size: 16px;
+          display: block;
+          max-width: 500px;
+          width: 100%;
+          height: 235px;
+          color: white;
+          z-index: 2;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+        }
+
+        .text-block2 span {
+          font-size: 22px;
+        }
+
+        .text-block2 p {
+          margin-bottom: 25px;
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+
+        .text-block2 .subcontent {
+          position: relative;
+          bottom: 0;
+          text-align: center;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          vertical-align: middle;
+          width: 100%;
+        }
+
+        .text-block2 .subcontent a {
+          color: white;
+          border-radius: 0;
+          background: black;
+          color: white;
+          width: 100%;
+          padding: 0.5rem 0;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+        }
+
+        .fontSizeMedium .text-block2 .subcontent a {
+          font-size: 18px;
+        }
+
+        .text-block2 .subcontent a:first-of-type {
+          border-right: 1px solid #222222;
+        }
+
+        .text-block2 .subcontent span {
+          font-size: inherit;
+        }
+
+        .text-block2 .btn {
+          background-color: white;
+          border: 1px solid #ced4da;
+          border-left: none;
+          font-size: 16px;
+        }
+
+        .text-block {
+          position: absolute;
+          bottom: 5px;
+          right: 10px;
+          /*background-color: rgba(0,0,0,0.8);*/
+          padding: 10px;
+          font-size: 13px;
+          display: block;
+          z-index: 2;
+        }
+
+        .text-block p {
+          margin-bottom: 0;
+          color: white;
+        }
+
+        .fontSizeMedium .text-block p {
+          font-size: 19px;
+        }
+
+        .text-block a {
+          color: #a2d5e0;
+          font-style: italic;
+        }
+
+        .imageInfo {
+          display: none;
+        }
+
+        @media screen and (max-width: 992px) {
+          .imageInfo {
+            display: block;
+            position: absolute;
+            bottom: 44px;
+            right: 10px;
+            display: none;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 8px;
+            border: none;
+            z-index: 2;
+            cursor: pointer;
+            font-size: 18px;
+
+          }
+
+        }
+
+
+        .slider .title {
+          font-weight: bold;
+          letter-spacing: 2px;
+          font-size: 15px;
+          text-transform: uppercase;
+          color: #bd5410;
+          margin-bottom: 15px;
+        }
+
+        .slider .title span a {
+          font-size: 11.5px;
+          text-transform: uppercase;
+        }
+
+        div.scrollmenu {
+          overflow: hidden;
+          white-space: nowrap;
+          width: 100%;
+          float: left;
+          -webkit-overflow-scrolling: touch;
+          overflow-x: scroll;
+          /* For FireFox https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars*/
+          scrollbar-color: #888 #f1f1f1;
+          scrollbar-width: thin;
+
+          /* IE */
+          scrollbar-base-color: #888;
+          scrollbar-face-color: #888;
+          scrollbar-3dlight-color: rgba(255, 255, 255, 1);
+          scrollbar-highlight-color: #000;
+          scrollbar-track-color: #f1f1f1;
+          scrollbar-arrow-color: #888;
+          scrollbar-shadow-color: rgba(181, 181, 181, 1);
+          scrollbar-dark-shadow-color: #000;
+          /* For FireFox https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars*/
+          scrollbar-color: #888 #f1f1f1;
+          scrollbar-width: thin;
+
+          /* IE */
+          scrollbar-base-color: #888;
+          scrollbar-face-color: #888;
+          scrollbar-3dlight-color: rgba(255, 255, 255, 1);
+          scrollbar-highlight-color: #000;
+          scrollbar-track-color: #f1f1f1;
+          scrollbar-arrow-color: #888;
+          scrollbar-shadow-color: rgba(181, 181, 181, 1);
+          scrollbar-dark-shadow-color: #000;
+        }
+
+        div.scrollmenu::-webkit-scrollbar {
+          width: 6px;
+          height: 6px;
+        }
+
+        div.scrollmenu::-webkit-scrollbar-thumb {
+          background: #cdcdcd;
+          border-radius: 0px;
+          border: 0 solid #000;
+        }
+
+        div.scrollmenu::-webkit-scrollbar-track-piece {
+          background: #fff;
+          border-radius: 0px;
+        }
+
+        div.scrollmenu::-webkit-scrollbar-thumb:hover {
+          background: #aeaeae;
+        }
+
+        @media screen and (max-width:992px) {
+          div.scrollmenu .menu_item {
+            margin-bottom: 15px;
+          }
+        }
+
+        div.scrollmenu .menu_item {
+          display: inline-block;
+          text-align: center;
+          padding: 0;
+          text-decoration: none;
+          background: #F5F6F7;
+          color: #595959 !important;
+          height: 160px;
+          width: 175px;
+          transition: opacity 0.5s;
+          font-weight: bold;
+        }
+
+        div.scrollmenu .menu_item:hover {
+          opacity: 0.8;
+        }
+
+        div.scrollmenu .menu_item .item_imgWrapper {
+          height: 5rem;
+          width: 13rem;
+          max-width: 100%;
+          overflow: hidden;
+          position: relative;
+        }
+
+        div.scrollmenu .menu_item .menu_img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          overflow: hidden;
+          position: relative;
+        }
+
+        .caption {
+          font-size: 14px;
+          line-height: 18px;
+          height: 82px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          padding: 5px 5px 0;
+          margin: 0;
+          white-space: initial !important;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+          display: -webkit-box;
+        }
+
+        .caption .caption_title {
+          margin-bottom: 5px;
+          font-weight: 600;
+        }
+
+        .caption .caption_sub {
+          font-weight: normal;
+          margin-bottom: 0;
+          font-size: 14px;
+          display: none;
+        }
+
+        #fm_slider {
+          background-color: #E7E3DD;
+        }
+
+        .btn_slider {
+          border-radius: 0;
+          background-color: transparent;
+          color: #6f6f6f;
+          padding: 0px 5px;
+          transition: color 0.5s;
+        }
+
+        .btn_slider:hover {
+          color: #000;
+        }
+
+        .btn_slider:focus {
+          box-shadow: none;
+          color: #000;
+        }
+
+
+        @media screen and (max-width:992px) {
+          #digitized_scrollmenu {
+            margin-top: 5%;
+          }
+
+          #digitized_scrollmenu,
+          #photos_scrollmenu,
+          #photo_collection_scrollmenu,
+          #collections_scrollmenu {
+            margin-bottom: 10% !important;
+          }
+        }
+
+        #digitized_scrollmenu,
+        #photos_scrollmenu,
+        #collections_scrollmenu {
+          margin-bottom: 3%;
+        }
+
+        #photo_collection_scrollmenu div.scrollmenu .menu_item {
+          height: 160px;
+        }
+
+        #photo_collection_scrollmenu .item_count {
+          float: left;
+          padding-left: 10px;
+          background: #efefef;
+          width: 100%;
+          text-align: left;
+          margin-top: 4px;
+          font-size: 12px;
+          height: 26px;
+          padding: 5px;
+          display: none;
+        }
+
+
+        #intro_box {
+          /*background: #bd5410;*/
+          background: #642118;
+          color: #ffffff;
+          letter-spacing: 3px;
+          position: relative;
+          border-radius: 0;
+          margin-bottom: 0px;
+          z-index: 1;
+          box-shadow: 0px 6px 7px -3px #a4a4a4;
+        }
+
+        @media (min-width: 576px) {
+          #intro_box {
+            padding: 2rem 2rem;
+          }
+        }
+
+        #intro_box .container-fluid .nav {
+          justify-content: center;
+        }
+
+        #intro_box .container-fluid .nav .nav-item {
+          padding-left: .5rem;
+        }
+
+        #intro_box .container-fluid .nav .nav-item::before {
+          display: inline-block;
+          padding-right: .5rem;
+          color: #fff;
+          content: "|";
+        }
+
+        #intro_box .container-fluid .nav #no_bar::before {
+          display: none;
+        }
+
+        #intro_box .container-fluid .nav .nav-link {
+          color: #FFF;
+          text-shadow: none;
+          display: inline;
+          letter-spacing: 2px;
+        }
+
+        #intro_box .container-fluid .nav .nav-link:hover {
+          text-decoration: underline;
+          color: #d1d1d1;
+        }
+
+        @media screen and (max-width:576px) {
+          #intro_box .container-fluid .nav {
+            display: block;
+          }
+
+          #intro_box .container-fluid .nav .nav-link {
+            padding-left: .5px;
+          }
+
+          #intro_box .container-fluid .nav #no_bar::before {
+            display: inline-block;
+            padding-right: .5rem;
+            color: #fff;
+            content: "|";
+          }
+        }
+
+        @media screen and (max-width:768px) {
+          #intro_box .container-fluid .nav .nav-link {
+            letter-spacing: 1px;
+          }
+        }
+
+        .gradient-overlay {
+          position: absolute;
+          bottom: 0;
+          z-index: 1;
+          left: 0;
+          width: 100%;
+          height: 11%;
+          background: -moz-linear-gradient(bottom, rgba(22, 21, 20, 0) 0%, rgba(22, 21, 20, 0.8) 50%, #161514 100%);
+          background: -webkit-linear-gradient(bottom, rgba(22, 21, 20, 0) 0%, rgba(22, 21, 20, 0.8) 50%, #161514 100%);
+          background: -o-linear-gradient(bottom, rgba(22, 21, 20, 0) 0%, rgba(22, 21, 20, 0.8) 50%, #161514 100%);
+          background: -ms-linear-gradient(bottom, rgba(22, 21, 20, 0) 0%, rgba(22, 21, 20, 0.8) 50%, #161514 100%);
+          background: linear-gradient(to bottom, rgba(22, 21, 20, 0) 0%, rgba(22, 21, 20, 0.8) 50%, #161514 100%);
+        }
+
+
+
+        .socialmediaHeader {
+          border-bottom: 2px solid #212529;
+          padding-bottom: 5px;
+          font-weight: bold;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+        }
+
+        .socialmediaHeader a {
+          color: inherit !important;
+        }
+
+        .btn.media_btns {
+          width: 40px;
+          height: 40px;
+          padding: 0;
+          margin-right: 3px;
+          transition: .2s ease-in-out all;
+        }
+
+        .btn.media_btns a {
+          color: white !important;
+          font-size: 20px;
+        }
+
+
+
+        /* .btn.media_btns:hover i {
+          transform: scale(1.2);
+        } */
+
+        .media_btns:hover {
+          opacity: .7;
+        }
+
+        .btn.facebook {
+          background: #3B5998;
+        }
+
+        .btn.twitter {
+          background: #26A7DE;
+        }
+
+        .btn.instagram {
+          background: #125688;
+        }
+
+        .btn.youtube {
+          background: #BB0000;
+        }
+
+        .btn.pinterest {
+          background: #CB2027;
+        }
+
+        .btn.tumblr {
+          background: #2C4762;
+        }
+
+        .btn.flickr {
+          background: #F40083;
+        }
+
+        .btn.rss {
+          background: #EE8641;
+        }
+
+        .jumbotron {
+          margin-bottom: 0;
+        }
+
+        #featured {
+          background-color: #E7E3DD;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+        }
+
+        #featured .jumbo_title {
+          border-bottom: 1px solid #ADAAA6;
+          margin-bottom: 20px;
+          padding-bottom: 10px;
+          color: #575553;
+        }
+
+        #featured_container {
+          /*background-color:#F6F4F2;*/
+          border: 1px solid #ADAAA6;
+          border-radius: 0;
+          border: none;
+          position: relative;
+          background-color: transparent;
+        }
+
+        #featured_container .card_link {
+          color: #bd5410 !important;
+          font-weight: 600;
+          font-size: 14px;
+          letter-spacing: 1px;
+          transition: letter-spacing 0.5s;
+        }
+
+        #featured_container .card_link:hover {
+          letter-spacing: 2px;
+        }
+
+        #featured_container .card-img {
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+          outline: 9px solid #E7E3DD;
+          outline-offset: -9px;
+        }
+
+        .triangle-left {
+          width: 0;
+          height: 0;
+          border-top: 25px solid transparent;
+          border-right: 30px solid #F6F4F2;
+          border-bottom: 25px solid transparent;
+          position: absolute;
+          top: 50%;
+          left: 48.8%;
+          transform: translate(-50%, -50%);
+        }
+
+        @media screen and (max-width:992px) {
+          .triangle-left {
+            display: none;
+          }
+        }
+
+        #bottom_features .features_title {
+          padding: 5px;
+          color: #575553;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-weight: 700;
+          letter-spacing: 2px;
+          border-bottom: 1px solid #575553;
+        }
+
+        #bottom_features h5 a {
+          color: #575553 !important;
+        }
+
+        #bottom_features p {
+          color: #575553;
+        }
+
+        #bottom_features p small {
+          font-size: 90%;
+        }
+
+        #components {
+          background-color: #DBD4CD;
+          border-bottom: 3px solid #cfc8c0;
+          border-top: 3px solid #cfc8c0;
+        }
+
+        #components .teaser_type {
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 18px;
+          color: #575553;
+          margin-bottom: 2px;
+        }
+
+        #components .teaser_subheading {
+          color: #666666;
+          font-size: 14px;
+        }
+
+        #components p {
+          color: #666666;
+          margin-top: 5px;
+        }
+
+        @media screen and (min-width:992px) {
+          #exhibits_teaser .teaser_subheading {
+            margin-bottom: 23px;
+          }
+        }
+
+        .promo_teaser {
+          width: 100%;
+          max-width: 25rem;
+          margin: 0px 25px 30px;
+        }
+
+        .teaser_image {
+          height: 20rem;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          max-width: 25rem;
+        }
+
+        .promo_teaser #collections {
+          background-image: url("https://www.floridamemory.com/historical_records/fernandinaburial/burial_docs.png");
+        }
+
+        .promo_teaser #classroom {
+          background-image: url("https://www.floridamemory.com/fpc/memory/onlineclassroom/zora_hurston/photos/images/_fa0514.jpg");
+        }
+
+        .promo_teaser #audio {
+          background-image: url("https://www.floridamemory.com/fpc/memory/new_server/images/fp51684a.jpg");
+          background-position: center 78%;
+        }
+
+        .promo_teaser #video {
+          background-image: url("https://www.floridamemory.com/fpc/memory/PhotographicCollection/video/rossallen.jpg");
+        }
+
+        .promo_teaser #photo {
+          background-image: url("https://www.floridamemory.com/fpc/prints/pr10676.jpg");
+        }
+
+        .promo_teaser #exhibits {
+          background-image: url("https://www.floridamemory.com/fpc/general/n027029.jpg");
+        }
+
+        .promo_teaser #blog {
+          background-image: url("https://www.floridamemory.com/fpc/memory/blog/images/2019/bench.jpg");
+        }
+
+        .promo_teaser #maps {
+          background-image: url("https://www.floridamemory.com/collections/floridamaps/map_group.png");
+        }
+
+        .text_overlay {
+          text-align: center;
+          position: absolute;
+          color: white;
+          background: rgba(191, 70, 17, .60);
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          transition: opacity 0.5s;
+        }
+
+        .text_overlay span {
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          position: absolute;
+          font-weight: bold;
+          text-transform: uppercase;
+          font-weight: bold;
+          letter-spacing: 3px;
+          font-size: 14px;
+          border: 4px solid white;
+          padding: 10px 20px;
+        }
+
+        .teaser_image:hover .text_overlay {
+          opacity: 1;
+        }
+
+        #spotlight,
+        #socialmedia {
+          background-color: #DBD4CD;
+        }
+
+        #spotlight .jumbo_title,
+        #socialmedia .jumbo_title {
+          border-bottom: 1px solid #ADAAA6;
+          margin-bottom: 20px;
+          padding-bottom: 10px;
+          color: #575553;
+        }
+
+        #spotlight .jumbo_title a,
+        #socialmedia .jumbo_title a {
+          color: #575553;
+        }
+
+        #twitter-widget-0 {
+          margin-right: 10px;
+        }
+
+        .fb_iframe_widget {
+          margin-right: 10px;
+        }
+
+        @media screen and (max-width:992px) {
+          .fb_iframe_widget {
+            margin-bottom: 10px;
+          }
+        }
+
+        #Outreach_Section {
+          /*background-color:#bd5410;*/
+          background-color: #642118;
+          color: white;
+          position: relative;
+          padding: 1rem;
+
+        }
+
+        #Outreach_Section ul {
+          list-style: none;
+          display: -ms-flexbox;
+          display: flex;
+          text-align: center;
+          padding-left: 0;
+        }
+
+        @media screen and (max-width:992px) {
+          #Outreach_Section ul {
+            display: block;
+          }
+
+          #Outreach_Section ul li {
+            max-width: initial !important;
+          }
+        }
+
+        #Outreach_Section ul li {
+          max-width: 30rem;
+          padding: 2rem;
+        }
+
+        #Outreach_Section ul li a {
+          color: #fff;
+          text-decoration: none;
+          cursor: default;
+        }
+
+        #Outreach_Section ul li a:hover {
+          color: #fff !important;
+        }
+
+
+        #Outreach_Section a .icon_container,
+        #Outreach_Section a h5,
+        #Outreach_Section a p {
+          transition: 1 ease-in-out all;
+        }
+
+
+
+        #Outreach_Section li {
+          transition: .2s ease-in-out all;
+          /* border: #642118 solid 3px; */
+        }
+
+        #Outreach_Section li:hover {
+          /* border: white solid 3px; */
+          /* transform: scale(1.1); */
+          opacity: .8;
+        }
+
+        #Outreach_Section a:hover {
+          cursor: pointer;
+        }
+
+
+        .icon_container {
+
+          border: 2px solid;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          margin: 0 auto 10px;
+          padding: 10px;
+          /*background: #76350c;*/
+          background: #9E746F;
+
+          cursor: container;
+        }
+
+        #spotlight p {
+          color: black;
+        }
+
+
+
+        #Outreach_Section h5 {
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 17px;
+          letter-spacing: 2px;
+
+        }
+
+
+
+
+
+        .fa-stack {
+          font-size: 16px;
+        }
+
+        .top_shadow {
+          box-shadow: 0px -3px 5px #717171;
+          width: 100%;
+          position: absolute;
+          height: 4%;
+          top: 0;
+          left: 0;
+        }
+
+        .bottom_shadow {
+          box-shadow: 0px 5px 5px #717171;
+          width: 100%;
+          position: absolute;
+          height: 4%;
+          left: 0;
+          bottom: 0%;
+        }
+
+
+
+        .scroll_icon {
+          color: #fff;
+          font-size: 30px;
+          position: absolute;
+          opacity: 1;
+          bottom: 0;
+          z-index: 2;
+          bottom: 0;
+          left: 50%;
+          transform: translate(0%, 0%);
+
+          animation: bounce_vertical_down 2s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease;
+          animation-duration: 2.5s;
+          animation-iteration-count: infinite;
+        }
+
+        @keyframes bounce_vertical_down {
+
+          0%,
+          20%,
+          60%,
+          100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+          }
+
+          40% {
+            -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+          }
+
+          80% {
+            -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+          }
+        }
+
+        .fm_section {
+          display: inline-block;
+          width: 16rem;
+          height: 10rem;
+          margin: 10px;
+          position: relative;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          overflow: hidden;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          border-radius: 0.25rem;
+        }
+
+        .fm_section .title {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 2px 2px 4px #000000;
+          transition: 0.5s;
+          text-align: center;
+        }
+
+        .fm_section .subtitle {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, 300%);
+          color: white;
+          text-shadow: 2px 2px 4px #000000;
+          font-size: 18px;
+          opacity: 0;
+          text-align: center;
+          transition-delay: 0.2s;
+          transition: 0.5s;
+        }
+
+        .fm_section:hover {
+          opacity: 1;
+          transition: opacity 1s;
+        }
+
+        .fm_section:hover .title {
+          transform: translate(-50%, -420%);
+          user-select: none;
+        }
+
+        .fm_section:hover .subtitle {
+          transform: translate(-50%, -50%);
+          transition-delay: 0.2s;
+          opacity: 1;
+        }
+
+        .fontSizeMedium .fm_section {
+          width: 16rem;
+          height: 9rem;
+        }
+
+        .fontSizeMedium .fm_section .subtitle {
+          font-size: 20px;
+        }
+
+        .DyslexicFont.fontSizeMedium .fm_section {
+          width: 16rem;
+          height: 10rem;
+        }
+
+        #photo_section {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(/themes/florida_memory/images/MSC3851-thumb.jpg);
+          background-position: 100% 18%;
+        }
+
+        #historical_section {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(/FMP/muster_rolls/medium/s1146_b002_f03_01_01.jpg);
+          background-position: 100% 4%;
+          background-size: 102%;
+        }
+
+        #maps_section {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(/themes/florida_memory/images/maps_thumb.png);
+          background-size: 110%;
+        }
+
+        #audio_section {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(/themes/florida_memory/images/audio_thumb.jpg);
+        }
+
+        #video_section {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(/themes/florida_memory/images/video_thumb.png);
+        }
+
+        #classroom_section {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(/themes/florida_memory/images/classroom_thumb.jpg);
+        }
+
+        #blog_section {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(/fpc/memory/blog/images/2019/vanfleet-1953.jpg);
+        }
+
+        #exhibits_section {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(/themes/florida_memory/images/exhibits_thumb.png);
+          background-position: 100% 100%;
+        }
+      </style>
+
+
+      <style>
+        #HomePageCarousel {
+          background-color: #fff;
+        }
+
+        @media screen and (min-width:768px) {
+          #HomePageCarousel .carousel-item {
+            height: 750px;
+          }
+        }
+
+        @media screen and (max-width:768px) {
+          #HomePageCarousel .carousel-item {
+            height: 80%;
+          }
+        }
+
+        @media screen and (max-width:425px) {
+          #HomePageCarousel .carousel-item {
+            height: 75%;
+          }
+        }
+
+        @media screen and (max-width:375px) {
+          #HomePageCarousel .carousel-item {
+            height: 60%;
+          }
+        }
+
+        @media screen and (max-width:320px) {
+          #HomePageCarousel .carousel-item {
+            height: 67%;
+          }
+        }
+
+        @media screen and (min-width:992px) {
+          .item1 .carousel-item-image img {
+            object-fit: fill;
+          }
+        }
+
+        @media screen and (max-width:425px) {
+          .item3 .carousel-item-image {
+            background-image: url(https://www.floridamemory.com/themes/florida_memory/dust_tracks.png);
+            background-repeat: no-repeat;
+            background-size: 90rem;
+            background-position: 53% 0;
+            height: 350px;
+          }
+
+          .item3 img {
+            display: none !important;
+          }
+        }
+
+        @media screen and (max-width:375px) {
+          .item3 .carousel-item-image {
+            background-image: url(https://www.floridamemory.com/themes/florida_memory/dust_tracks.png);
+            background-repeat: no-repeat;
+            background-size: 77rem;
+            background-position: 53% 15%;
+            height: 205px;
+          }
+
+          .item3 img {
+            display: none !important;
+          }
+        }
+
+        @media screen and (max-width:320px) {
+          .item3 .carousel-item-image {
+            background-image: url(https://www.floridamemory.com/themes/florida_memory/dust_tracks.png);
+            background-repeat: no-repeat;
+            background-size: 77rem;
+            background-position: 53% 15%;
+            height: 205px;
+          }
+
+          .item3 img {
+            display: none !important;
+          }
+        }
+
+        /*
+  .item2 img{
+    margin-top:-15px;
+  }
+  */
+        .carousel-item-image {
+          /*height:600px; original */
+          height: 630px;
+        }
+
+        @media screen and (max-width:768px) {
+          .carousel-item-image {
+            height: 360px;
+            margin-top: 20px;
+          }
+        }
+
+        @media screen and (max-width:425px) {
+          .carousel-item-image {
+            height: 325px;
+            margin-top: 0px;
+          }
+        }
+
+        @media screen and (max-width:375px) {
+          .carousel-item-image {
+            height: 200px;
+            margin-top: 0px;
+          }
+        }
+
+        @media screen and (max-width:320px) {
+          .carousel-item-image {
+            height: 255px;
+            margin-top: 0px;
+          }
+        }
+
+        .carousel-item-image img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+          display: block;
+        }
+
+        #item1-image {
+          background-image: url(https://www.floridamemory.com/fpc/reference/rc03247a.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center 97%;
+        }
+
+        #item1-image img {
+          display: none;
+        }
+
+        .carousel-custom-caption {
+          padding: 10px 20px;
+          display: block;
+          height: 160px;
+          background-color: #fff;
+        }
+
+        @media screen and (max-width:375px) {
+          .carousel-custom-caption {
+            height: 200px;
+          }
+        }
+
+        .carousel-custom-caption .type {
+          margin-bottom: 10px;
+          display: block;
+        }
+
+        .carousel-custom-caption a:hover {
+          text-decoration: none;
+        }
+
+        .carousel-custom-caption .title {
+          font-size: 22px;
+          color: #642118;
+        }
+
+        .carousel-custom-caption a p {
+          color: #212529;
+        }
+
+        .desaturated .carousel-custom-caption .title {
+          color: #000;
+        }
+
+        @media screen and (max-width:768px) {
+          .carousel-custom-caption .title {
+            font-size: 18px;
+          }
+        }
+
+        #carousel-controls-wrapper {
+          background-color: #fff;
+        }
+
+        #HomePageCarousel .carousel-indicators {
+          position: relative;
+          margin: 0;
+          margin-bottom: 10px;
+        }
+
+
+        #HomePageCarousel .carousel-indicators li {
+          border-radius: 50%;
+          height: 10px;
+          width: 10px;
+          background-color: black;
+          border: white solid 2px;
+          margin-top: 1rem;
+        }
+
+        #HomePageCarousel .carousel-indicators li:hover {
+          background-color: black;
+          border: white solid 2px;
+          opacity: 1;
+        }
+
+        #HomePageCarousel .carousel-control-prev {
+          left: 20px;
+          padding-right: 5px;
+        }
+
+        #HomePageCarousel .carousel-control-next {
+          right: 20px;
+          padding-left: 5px;
+        }
+
+        #HomePageCarousel .carousel-control-prev,
+        #HomePageCarousel .carousel-control-next {
+          position: absolute;
+          top: 35%;
+          bottom: 0;
+          color: #fff;
+          border: 2px solid white;
+          border-radius: 50%;
+          background-color: rgba(0, 0, 0, 0.3);
+          opacity: 0.5;
+          text-align: center;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-align: center;
+          align-items: center;
+          justify-content: center;
+          width: 50px;
+          height: 50px;
+          font-size: 40px;
+          z-index: 20;
+          transition: 0.6s;
+        }
+
+        #HomePageCarousel .carousel-control-prev:hover,
+        #HomePageCarousel .carousel-control-next:hover {
+          color: #fff !important;
+          opacity: 1;
+          text-decoration: none;
+          outline: 0;
+        }
+
+        #HomePageCarousel .carousel-control-prev:focus,
+        #HomePageCarousel .carousel-control-next:focus {
+          text-decoration: none;
+          outline: 0;
+        }
+
+        #HomePageCarousel .carousel-control-prev:active,
+        #HomePageCarousel .carousel-control-next:active,
+        #HomePageCarousel .carousel-control-prev:focus,
+        #HomePageCarousel .carousel-control-next:focus,
+        #HomePageCarousel .carousel-control-prev.active,
+        #HomePageCarousel .carousel-control-next.active {
+          color: #fff;
+        }
+
+        .desaturated #HomePageCarousel .carousel-control-next,
+        .desaturated #HomePageCarousel .carousel-control-prev {
+          background-color: #272727;
+          opacity: 1;
+          color: #fff !important;
+        }
+
+        .inverted #HomePageCarousel .carousel-control-next,
+        .inverted #HomePageCarousel .carousel-control-prev {
+          background-color: #000;
+          opacity: 1;
+          filter: invert(1);
+          border-color: #FF9E66;
+        }
+
+        @media screen and (max-width:768px) {
+
+          .carousel-control-prev,
+          .carousel-control-next {
+            display: none !important;
+          }
+        }
+
+        .carousel_controls {
+          position: absolute;
+          bottom: 0px;
+          right: 40px;
+          margin-bottom: 10px;
+          display: none;
+        }
+
+        .carousel_controls span {
+          cursor: pointer;
+        }
+
+        @media screen and (max-width:768px) {
+          .carousel_controls {
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            bottom: -35px;
+          }
+        }
+
+        .desaturated .carousel-item-image {
+          filter: grayscale(100%);
+        }
+
+        .inverted #item1-image {
+          filter: invert(100%);
+        }
+
+        .highcontrast .carousel-custom-caption {
+          background-color: #000;
+          color: #fff;
+        }
+
+        .highcontrast .carousel-custom-caption .title {
+          color: #fff;
+        }
+
+        .highcontrast .carousel-custom-caption a p {
+          color: #fff;
+        }
+
+        .highcontrast #carousel-controls-wrapper {
+          background-color: #000;
+        }
+
+        .highcontrast #HomePageCarousel .carousel-indicators li {
+          background-color: #fff;
+        }
+
+        .inverted .carousel-custom-caption {
+          background-color: #000;
+          color: #c3c3c3;
+        }
+
+        .inverted .carousel-custom-caption .title {
+          color: #c3c3c3;
+        }
+
+        .inverted .carousel-custom-caption a p {
+          color: #c3c3c3;
+        }
+
+        .inverted #carousel-controls-wrapper {
+          background-color: #000;
+        }
+
+        .inverted #HomePageCarousel .carousel-indicators li {
+          background-color: #fff;
+        }
+
+        .carousel-control-prev:focus,
+        .carousel-control-next:focus {
+          color: white !important;
+          opacity: .7;
+        }
+
+        .carousel-control-prev i,
+        .carousel-control-next i {
+          margin-bottom: .2rem;
+        }
+      </style>
+
+
+      <div id="HomePageCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
+
+
+        <div class="carousel-inner">
+
+
+          <div class="carousel-item active item1">
+            <a href="https://www.floridamemory.com/discover/historical_records/territorial-legislative/">
+              <div class="carousel-item-image" id="item1-image">
+                <img src="https://www.floridamemory.com/fpc/reference/rc03247a.jpg" alt="...">
+              </div><!-- carousel item image -->
+            </a>
+            <div class="carousel-custom-caption">
+              <span class="type">Historical Record</span>
+              <a href="https://www.floridamemory.com/discover/historical_records/territorial-legislative/">
+                <h5 class="title">Territorial Legislative Council Records, 1822-1845</h5>
+                <p>Petitions, correspondence, reports and drafts of bills and resolutions documenting the work of
+                  Florida's legislators prior to statehood.</p>
+              </a>
+            </div><!-- carousel caption -->
+          </div><!-- carousel item -->
+
+
+
+
+
+
+          <div class="carousel-item item3">
+            <div class="carousel-item-image">
+              <a href="https://www.floridamemory.com/discover/audio/playlists/dust_tracks.php"><img
+                  src="https://www.floridamemory.com/themes/florida_memory/dust_tracks.png" alt="..."></a>
+            </div><!-- carousel item image -->
+            <div class="carousel-custom-caption">
+              <span class="type">Audio</span>
+              <a href="https://www.floridamemory.com/discover/audio/playlists/dust_tracks.php">
+                <h5 class="title">Listen</h5>
+                <p>21 tracks from Hurston's time documenting African American culture for the WPA in 1930s Florida.</p>
+              </a>
+            </div><!-- carousel caption -->
+          </div><!-- carousel item -->
+
+
+
+          <div class="carousel-item item4">
+            <div class="carousel-item-image">
+              <a href="https://www.floridamemory.com/learn/research-tools/guides/military/"><img
+                  src="https://www.floridamemory.com/learn/research-tools/guides/military/military-default.png"
+                  alt="..."></a>
+            </div><!-- carousel item image -->
+            <div class="carousel-custom-caption">
+              <span class="type">Research Tool</span>
+              <a href="https://www.floridamemory.com/learn/research-tools/guides/military/">
+                <h5 class="title">Guide to Military Records and the Wartime Experience</h5>
+                <p>A guide to government records and manuscript collections at the State Archives of Florida relating to
+                  service members and the wartime experience.</p>
+              </a>
+            </div><!-- carousel caption -->
+          </div><!-- carousel item -->
+
+
+
+          <!--<div class="carousel-item item5">
+        <div class="carousel-item-image">
+          <a href="https://www.floridamemory.com/learn/classroom/history-day/"><img src="https://www.floridamemory.com/learn/classroom/history-day/2023/nhd_2023.png" alt="Logo for History Day 2023. Frontiers in History: People, Places, Ideas"></a>
+        </div>-->
+          <!-- carousel item image -->
+          <!--<div class="carousel-custom-caption">
+          <span class="type">Classroom</span>
+          <a href="https://www.floridamemory.com/learn/classroom/history-day/">
+          <h5 class="title">Florida History Day 2023</h5>
+          <p>Resources for Florida History Day from the State Library and Archives of Florida.</p>
+          </a>
+        </div>--><!-- carousel caption -->
+          <!--</div> carousel item -->
+
+          <!--</div> carousel inner -->
+
+
+
+          <a class="carousel-control-prev" href="#HomePageCarousel" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+          </a>
+          <a class="carousel-control-next" href="#HomePageCarousel" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+          </a>
+
+          <div class="row justify-content-center mx-0" id="carousel-controls-wrapper">
+            <ol class="carousel-indicators">
+              <li data-target="#HomePageCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#HomePageCarousel" data-slide-to="1"></li>
+              <li data-target="#HomePageCarousel" data-slide-to="2"></li>
+              <li data-target="#HomePageCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel_controls">
+              <span id="prevBtn"><i class="fa fa-arrow-left fa-fw"></i></span>
+              <span id="startBtn"><i class="fa fa-play fa-fw"></i></span>
+              <span id="pauseBtn"><i class="fa fa-pause fa-fw"></i></span>
+              <span id="nextBtn"><i class="fa fa-arrow-right fa-fw"></i></span>
+            </div><!-- carousel controls -->
+          </div><!-- row justify-content-center mx-0 -->
+
+        </div><!-- carousel -->
+
+
+        <script>
+          $(document).ready(function () {
+            // Click on the button to start sliding
+            $("#startBtn").click(function () {
+              $("#HomePageCarousel").carousel("cycle");
+            });
+
+            // Click on the button to stop sliding
+            $("#pauseBtn").click(function () {
+              $("#HomePageCarousel").carousel("pause");
+            });
+
+            // Enable Carousel Controls
+            $("#prevBtn").click(function () {
+              $("#HomePageCarousel").carousel("prev");
+            });
+            $("#nextBtn").click(function () {
+              $("#HomePageCarousel").carousel("next");
+            });
+
+          });
+        </script>
+
+
+
+        <style>
+          .item-color:hover {
+            color: #fff !important;
+          }
+        </style>
+
+
+        <div class="jumbotron jumbotron-fluid" id="intro_box">
+          <div class="container-fluid d-flex justify-content-center">
+            <ul class="nav">
+              <li class="nav-item " id="no_bar"><a class="nav-link item-color"
+                  href="https://www.floridamemory.com/learn/about/">Founding and
+                  Mission</a></li>
+              <li class="nav-item "><a class="nav-link item-color"
+                  href="https://www.floridamemory.com/learn/about/selections.php">What We Select</a>
+              </li>
+              <li class="nav-item "><a class="nav-link item-color"
+                  href="https://www.floridamemory.com/learn/about/guidelines.php">Digitization
+                  Guidelines</a></li>
+              <li class="nav-item "><a class="nav-link item-color"
+                  href="https://www.floridamemory.com/learn/about/partnerships.php">Partnerships</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <style>
+          #spotlight {
+            background-color: #DBD4CD;
+          }
+
+          #spotlight .jumbo_title {
+            border-bottom: 1px solid #ADAAA6;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            color: #575553;
+          }
+
+          #spotlight .jumbo_title a {
+            color: #575553;
+          }
+
+          #spotlight .sl_container {
+            float: left;
+            width: 15rem;
+            margin: 0 15px 10px;
+            display: inline-block;
+          }
+
+          @media screen and (min-width:768px) {
+            #spotlight .sl_container:first-of-type {
+              margin-left: 10px;
+            }
+          }
+
+          #spotlight .sl_container p {
+            width: 14rem;
+            text-align: center;
+          }
+
+          #spotlight .sl_title {
+            font-size: 16px;
+            margin-top: 5px;
+            text-align: center;
+          }
+
+          #spotlight .sl_item {
+            width: 11rem;
+            height: 11rem;
+            overflow: hidden;
+            margin: 0 auto 5px;
+            display: block;
+          }
+
+          @media screen and (max-width:768px) {
+            #spotlight .sl_item {
+              margin: 0 auto 5px;
+            }
+
+            #spotlight .sl_title {
+              text-align: center;
+            }
+
+            #spotlight .sl_container p {
+              text-align: center;
+              width: 100%;
+            }
+          }
+
+          #sl_item_1 {
+            background-image: url("https://www.floridamemory.com/fpc/memory/audio/radio/images/florida_memory_radio.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+          }
+
+          #sl_item_2 {
+            background-image: url("https://www.floridamemory.com/fpc/memory/calendar/2022-generic-calendar.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 11rem 9.8rem;
+          }
+
+          #sl_item_3 {
+            background-image: url("https://www.floridamemory.com/fmp/learn/floridiana/thumbnails/pr11356.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+          }
+
+          #sl_item_4 {
+            background-image: url("https://www.floridamemory.com/themes/florida_memory/images/florida_memory_logoSquare.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+          }
+
+          .highcontrast #spotlight {
+            background-color: #151515;
+          }
+
+          .highcontrast #spotlight .jumbo_title {
+            color: #fff;
+          }
+
+          .desaturated #spotlight {
+            background-color: #efefef;
+          }
+
+          .desaturated #spotlight .sl_item {
+            filter: grayscale(100%);
+          }
+
+          .inverted #spotlight {
+            background-color: #151515;
+          }
+
+          .inverted #spotlight .sl_item {
+            filter: invert(100%);
+          }
+
+
+
+          .sl_container p {
+            color: black !important;
+          }
+        </style>
+
+
+        <div class="jumbotron jumbotron-fluid" id="spotlight">
+          <div class="container">
+            <h4 class="jumbo_title">News and Updates</h4>
+
+            <div class="row justify-content-center mt-lg-5">
+              <div class="sl_container">
+                <a href="https://www.floridamemory.com/discover/audio/radio/">
+                  <div class="sl_item" id="sl_item_1"></div>
+
+                  <h5 class="sl_title">Listen Now</h5>
+                </a>
+                <p>The Latin Program</p>
+                <!--<p>Florida Memory Radio is an internet radio station that provides world-wide, around the clock access to the Folklife Collection recordings housed in the State Archives of Florida.</p>-->
+              </div>
+
+              <!--
+               <div class="sl_container">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScjeTHkfH6KJuC9Gqpk7QNDqAp_SExkoKy_49iTpTw7xswknA/viewform"><div class="sl_item" id="sl_item_2"></div></a>
+                  <h5 class="sl_title">Calendar Registration</h5>
+                  <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScjeTHkfH6KJuC9Gqpk7QNDqAp_SExkoKy_49iTpTw7xswknA/viewform" style="text-decoration:underline;">Request</a> your calendar today</p>
+              </div>
+              -->
+
+
+              <div class="sl_container">
+                <a href="https://www.floridamemory.com/share/connect/#newsletter">
+                  <div class="sl_item" id="sl_item_4"></div>
+
+                  <h5 class="sl_title">Florida Memory Newsletter and Updates</h5>
+                </a>
+                <p><a href="https://www.floridamemory.com/share/connect/" style="text-decoration:underline;">Sign up</a>
+                  to receive updates about the exciting things happening on Florida Memory.</p>
+              </div>
+
+              <div class="sl_container">
+                <a href="https://www.floridamemory.com/items/show/350939">
+                  <div class="sl_item" id="sl_item_3"></div>
+
+                  <h5 class="sl_title" style="font-style:normal;">Our Latest Floridiana Article:<br><span
+                      style="font-style:italic; font-size:15px;">Florida's State Archivists</span></h5>
+                </a>
+                <p>A short history of the State Archives of Florida and its leaders.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <style>
+          .fm_section {
+            display: inline-block;
+            width: 16rem;
+            height: 10rem;
+            margin: 10px;
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 0.25rem;
+          }
+
+          .fm_section .title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+            transition: 0.5s;
+            text-align: center;
+          }
+
+          .fm_section .subtitle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 300%);
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+            font-size: 18px;
+            opacity: 0;
+            text-align: center;
+            transition-delay: 0.2s;
+            transition: 0.5s;
+          }
+
+          .fm_section:hover {
+            opacity: 1;
+            transition: opacity 1s;
+          }
+
+          .fm_section:hover .title {
+            transform: translate(-50%, -420%);
+            user-select: none;
+          }
+
+          .fm_section:hover .subtitle {
+            transform: translate(-50%, -50%);
+            transition-delay: 0.2s;
+            opacity: 1;
+          }
+
+          .fontSizeMedium .fm_section {
+            width: 16rem;
+            height: 9rem;
+          }
+
+          .fontSizeMedium .fm_section .subtitle {
+            font-size: 20px;
+          }
+
+          .DyslexicFont.fontSizeMedium .fm_section {
+            width: 16rem;
+            height: 10rem;
+          }
+
+          #photo_section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(https://www.floridamemory.com/themes/florida_memory/images/MSC3851-thumb.jpg);
+            background-position: 100% 18%;
+          }
+
+          #historical_section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(https://www.floridamemory.com/FMP/muster_rolls/medium/s1146_b002_f03_01_01.jpg);
+            background-position: 100% 4%;
+            background-size: 102%;
+          }
+
+          #maps_section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(https://www.floridamemory.com/themes/florida_memory/images/maps_thumb.png);
+            background-size: 110%;
+          }
+
+          #audio_section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(https://www.floridamemory.com/themes/florida_memory/images/audio_thumb.jpg);
+          }
+
+          #video_section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(https://www.floridamemory.com/themes/florida_memory/images/video_thumb.png);
+          }
+
+          #classroom_section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(https://www.floridamemory.com/themes/florida_memory/images/classroom_thumb.jpg);
+          }
+
+          #blog_section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(https://www.floridamemory.com/fpc/memory/blog/images/2019/vanfleet-1953.jpg);
+          }
+
+          #exhibits_section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(https://www.floridamemory.com/themes/florida_memory/images/exhibits_thumb.png);
+            background-position: 100% 100%;
+          }
+        </style>
+
+        <div class="jumbotron jumbotron-fluid" id="featured">
+          <div class="container">
+            <div class="row justify-content-center">
+              <a href="https://www.floridamemory.com/discover/photographs/">
+                <div class="fm_section" id="photo_section">
+                  <h4 class="title">Photographs</h4>
+                  <h4 class="subtitle">Historical photographs and illustrations</h4>
+                </div>
+              </a>
+
+              <a href="https://www.floridamemory.com/discover/historical_records/">
+                <div class="fm_section" id="historical_section">
+                  <h4 class="title">Historical Records</h4>
+                  <h4 class="subtitle">Government, military and personal records</h4>
+                </div>
+              </a>
+
+              <a href="https://www.floridamemory.com/discover/maps/">
+                <div class="fm_section" id="maps_section">
+                  <h4 class="title">Maps</h4>
+                  <h4 class="subtitle">Historical maps of Florida</h4>
+                </div>
+              </a>
+
+              <a href="https://www.floridamemory.com/discover/audio/">
+                <div class="fm_section" id="audio_section">
+                  <h4 class="title">Audio</h4>
+                  <h4 class="subtitle">Music, oral histories and interviews</h4>
+                </div>
+              </a>
+
+              <a href="https://www.floridamemory.com/discover/video/">
+                <div class="fm_section" id="video_section">
+                  <h4 class="title">Video</h4>
+                  <h4 class="subtitle">Videos and film footage</h4>
+                </div>
+              </a>
+
+              <a href="https://www.floridamemory.com/learn/classroom/">
+                <div class="fm_section" id="classroom_section">
+                  <h4 class="title">Classroom</h4>
+                  <h4 class="subtitle">Educational resources for teachers and students</h4>
+                </div>
+              </a>
+
+              <a href="https://www.floridamemory.com/learn/floridiana/">
+                <div class="fm_section" id="blog_section">
+                  <h4 class="title">Floridiana Articles</h4>
+                  <h4 class="subtitle">Articles about topics in Florida's history</h4>
+                </div>
+              </a>
+
+              <a href="https://www.floridamemory.com/learn/exhibits/">
+                <div class="fm_section" id="exhibits_section">
+                  <h4 class="title">Exhibits</h4>
+                  <h4 class="subtitle">Exhibits, significant documents and timeline</h4>
+                </div>
+              </a>
+
+            </div><!-- row -->
+          </div>
+        </div><!-- jumbo featured -->
+
+
+        <div class="jumbotron jumbotron-fluid" id="Outreach_Section">
+          <div class="container">
+            <!--<div class="top_shadow"></div>-->
+
+            <style>
+              #TranscribeModal {
+                width: 100%;
+              }
+
+              #TranscribeModal .modal-body {
+                color: black;
+                font-size: 16px;
+              }
+            </style>
+
+            <ul>
+
+              <li>
+                <a href="https://www.floridamemory.com/share/donate/">
+                  <div class="icon_container d-flex justify-content-center align-items-center">
+                    <i class="fa fa-gift fa-2x" aria-hidden="true"></i>
+                  </div>
+                  <h5>Donate Records</h5>
+                  <p>Donate your family papers, photographs and documents to the State Archives of Florida.</p>
+                </a>
+              </li>
+
+
+              <li>
+                <a href="https://www.floridamemory.com/discover/photographs/">
+                  <div class="icon_container d-flex justify-content-center align-items-center">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-file-o fa-stack-2x" aria-hidden="true"></i>
+                      <i class="fa fa-search fa-stack-1x" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                  <h5>Share Your Knowledge</h5>
+                  <p>Help us identify the individuals, structures or events in these photographs.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="" data-toggle="modal" data-target="#TranscribeModal">
+                  <div class="icon_container d-flex justify-content-center align-items-center">
+                    <i class="fa fa-pencil fa-2x" aria-hidden="true"></i>
+                  </div>
+                  <h5>TRANSCRIBE</h5>
+                  <p>Help transcribe handwritten data from the comfort of your home.</p>
+                </a>
+              </li>
+
+
+              <!-- Modal -->
+              <div class="modal fade" id="TranscribeModal" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLabel">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span>&times;</span>
+                      </button>
+                      <div class="modal-body">
+                        Help us make Florida Memory more accessible! Become a Digital Volunteer and help transcribe
+                        newly digitized collections of letters, diaries and other valuable historical records. No
+                        special software is required, and Digital Volunteers can choose from a variety of projects to
+                        suit their interests. Contact <a
+                          href="mailto:FloridaMemory@dos.myflorida.com">FloridaMemory@dos.myflorida.com</a> for more
+                        information.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </ul>
+
+
+          </div>
+          <!--<div class="bottom_shadow"></div>-->
+        </div>
+
+
+
+        <style>
+          /* .fb-page iframe {
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+          } */
+
+          /* @media screen and (min-width:992px) {
+            .social-btns {
+              margin-left: 9rem;
+            }
+          } */
+        </style>
+
+
+
+
+
+
+
+
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous"
+          src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0" nonce="eM51g01h"></script>
+
+        <div class="jumbotron jumbotron-fluid" id="socialmedia">
+          <div class="container">
+            <h4 class="jumbo_title mb-4 text-center text-lg-left"><a
+                href="https://www.floridamemory.com/share/connect/">Connect With Us</a></h4>
+            <div class="d-flex justify-content-center  align-items-center ">
+              <button class="btn media_btns facebook" title="Facebook"><a
+                  href="https://www.facebook.com/statearchivesofflorida"><i class="fa fa-facebook"></i></a></button>
+              <button class="btn media_btns twitter" title="Twitter"><a href="https://twitter.com/FLMemory"><i
+                    class="fa fa-twitter"></i></a></button>
+              <button class="btn media_btns instagram" title="Instagram"><a
+                  href="https://www.instagram.com/floridamemory/"><i class="fa fa-instagram"></i></a></button>
+              <button class="btn media_btns youtube" title="YouTube"><a
+                  href="http://www.youtube.com/user/FloridaMemory"><i class="fa fa-youtube-play"></i></a></button>
+              <button class="btn media_btns flickr" title="Flickr"><a
+                  href="http://www.flickr.com/photos/floridamemory/"><i class="fa fa-flickr"></i></a></button>
+            </div>
+            <!--<a class="media_btns wdl" href="http://www.wdl.org/en/search/gallery/?ql=eng&amp;i=ftasa" title="World Digital Library"><img alt="World Digital Library" src="https://www.floridamemory.com/fpc/memory/omeka_images/footer/social/wdl-32.png"></a>-->
+
+            <div class="buffer" style="height:20px"></div>
+
+            <div class="social-container d-flex justify-content-center align-items-center mt-1 mt-lg-2 mb-lg-1">
+              <!-- <a class="twitter-timeline mr-lg-5" data-width="360" data-height="445" href="https://twitter.com/FLMemory?ref_src=twsrc%5Etfw">Tweets by FLMemory</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      <div class="d-lg-none" style="height:15px"></div> -->
+
+              <div class="fb-page" data-href="https://www.facebook.com/statearchivesofflorida" data-tabs="timeline"
+                data-width="" data-height="" data-small-header="false" data-adapt-container-width="true"
+                data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/statearchivesofflorida" class="fb-xfbml-parse-ignore"><a
+                    href="https://www.facebook.com/statearchivesofflorida">State Archives of Florida</a></blockquote>
+              </div>
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+          </div>
+        </div><!-- jumbo socialmedia -->
+
+
+
+
+
+        <script>
+          //replace broken images on scroller
+          //https://stackoverflow.com/questions/92720/jquery-javascript-to-replace-broken-images
+          $('.scrollmenu .menu_item img').on('error', function (e) {
+            $(this).attr('src', 'https://via.placeholder.com/250x100.png?text=No+Preview');
+          });
+        </script>
+
+
+        <script>
+          <!----- SCROLL RECENTLY DIGITIZED ITEMS ----->
+          $('#right_dig_items').click(function () {
+            $('#scroll_dig_items').animate({
+              scrollLeft: "+=600px"
+            }, "slow");
+          });
+
+          $('#left_dig_items').click(function () {
+            $('#scroll_dig_items').animate({
+              scrollLeft: "-=600px"
+            }, "slow");
+          });
+
+
+          // <!----- SCROLL RECENTLY ADDED PHOTOS ----->
+          $('#right_photo').click(function () {
+            $('#scroll_recent_photos').animate({
+              scrollLeft: "+=600px"
+            }, "slow");
+          });
+
+          $('#left_photo').click(function () {
+            $('#scroll_recent_photos').animate({
+              scrollLeft: "-=600px"
+            }, "slow");
+          });
+
+
+          // <!----- SCROLL PHOTO COLLECTIONS ----->
+          $('#right_photo_collect').click(function () {
+            $('#scroll_photo_collection').animate({
+              scrollLeft: "+=600px"
+            }, "slow");
+          });
+
+          $('#left_photo_collect').click(function () {
+            $('#scroll_photo_collection').animate({
+              scrollLeft: "-=600px"
+            }, "slow");
+          });
+
+
+
+
+          // <!----- SCROLL COLLECTIONS ----->
+          $('#right_collections').click(function () {
+            $('#scroll_collections').animate({
+              scrollLeft: "+=600px"
+            }, "slow");
+          });
+
+          $('#left_collections').click(function () {
+            $('#scroll_collections').animate({
+              scrollLeft: "-=600px"
+            }, "slow");
+          });
+
+
+        </script>
+        <style>
+          @media screen and (min-width:992px) {
+            .tempClass .navbar-expand-lg .navbar-nav .dropdown-menu {
+              top: 131%;
+            }
+
+            .tempClass .header_divider {
+              height: 139px;
+            }
+          }
+        </style>
+
+        <!-- script for audio player for Folklife genres, people and subjects in Learn -->
+        <!-- <script src="https://www.floridamemory.com/themes/florida_memory/javascripts/plyr/audio_js.js?version=1.7"></script> -->
+
+
+
+
+
+        <script>
+          //MULTILEVEL DROPDOWN FOR BREADCRUMB
+          $('.breadcrumb_dropdownmenu.dropdown-menu a.dropdown-toggle').on('click', function (e) {
+            if (!$(this).next().hasClass('show')) {
+              $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+            }
+            var $subMenu = $(this).next(".dropdown-menu");
+            $subMenu.toggleClass('show');
+
+
+            $(this).parents('span.breadcrumb-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+              $('.breadcrumb_submenu .show').removeClass("show");
+            });
+
+
+            return false;
+          });
+        </script>
+
+
+
+        <script>
+          //ICON TOGGLE FOR DROPDOWN MENU/SIDE NAV FOR COLLECTIONS, EXHIBITS, ETC
+          $(document).ready(function () {
+            $("#openNavBtn").click(function () {
+              $("#openNavBtn > i").toggleClass("fa-times fa-bars");
+            });
+
+            //Keeps dropdown menu open when clicking another button/link inside menu
+            $(document).on('click', '.dropdown-menu', function (e) {
+              e.stopPropagation();
+            })
+          });
+        </script>
+
+
+        <script>
+          //https://stackoverflow.com/a/17238014/10792033
+          //https://stackoverflow.com/a/24721767/10792033
+          //12-30-2020
+          //Closes sidenav and icon on screen sizes equal and less than 992px
+          /*
+          $(window).on('load resize', function () {
+             if( $(this).width() <= 992 ) {
+                  $("#menudropdown").removeClass("show");
+              $("#openNavBtn > i").removeClass("fa-times");
+                $("#openNavBtn > i").addClass("fa-bars");
+              }
+          });
+          */
+
+          //01-04-2021
+          $("#openNavBtn").click(function () {
+            $("#openNavBtn > i").toggleClass("fa-times fa-bars");
+          });
+
+          $(window).on('load resize', function () {
+            if ($(this).width() <= 992) {
+              $("#menudropdown").removeClass("show");
+              $("#openNavBtn > i").removeClass("fa-times");
+              $("#openNavBtn > i").addClass("fa-bars");
+              $("#openNavBtn").addClass('collapsed');
+              $("#side-nav").removeClass("d-none");
+              $("#side-nav").removeClass("d-lg-block");
+            } else {
+              $("#openNavBtn").removeClass('collapsed');
+              $("#openNavBtn > i").removeClass("fa-bars");
+              $("#openNavBtn > i").addClass("fa-times");
+              $("#menudropdown").addClass('show');
+              $("#side-nav").removeClass("d-none");
+              $("#side-nav").removeClass("d-lg-block");
+            }
+          });
+        </script>
+
+
+
+        <script>
+          function openForm() {
+            document.getElementById("FeedbackForm").style.display = "block";
+          }
+
+          function closeForm() {
+            document.getElementById("FeedbackForm").style.display = "none";
+          }
+        </script>
+
+
+
+        <style>
+          .HighlightLinks .socialMedia a {
+            color: white !important;
+          }
+
+          .highcontrast .Footer {
+            /*background:#181818;*/
+            background: rgb(0, 0, 0);
+            color: white;
+          }
+
+          .highcontrast .Footer .affiliates a,
+          .highcontrast .Footer .additional_Links a,
+          .highcontrast .socialMedia a {
+            color: white !important;
+          }
+
+          .highcontrast .Footer .nav.socialMedia a {
+            color: white !important;
+          }
+
+          .highcontrast .open-button {
+            background: #fff;
+            color: black;
+            font-weight: 600;
+            border: 1px solid black;
+            border-bottom: none;
+          }
+
+          .highcontrast .open-button:hover {
+            background: #fff;
+          }
+
+          .highcontrast .FMSignUp {
+            background: white;
+            color: black !important;
+            font-weight: 600;
+          }
+
+          .highcontrast .FMSignUp:hover {
+            background: white;
+          }
+
+          .highcontrast .fmp-informative a {
+            color: white;
+          }
+
+          .highcontrast .form-popup {
+            color: black !important;
+          }
+
+          .fontSizeMedium .Footer .FM_statement {
+            font-size: 16px;
+          }
+
+          .fontSizeMedium .Footer .FM_statement span {
+            font-size: 20px;
+          }
+
+          .fontSizeMedium .signupText {
+            font-size: 16px;
+          }
+
+          .fontSizeMedium .fmp-informative {
+            font-size: 16px;
+          }
+
+          .fontSizeMedium #FeedbackForm h5.header {
+            font-size: 18px;
+          }
+
+          .fontSizeMedium #FeedbackForm .custom-control {
+            font-size: 16px;
+          }
+
+          .fontSizeMedium #FeedbackForm p {
+            font-size: 15px;
+          }
+
+          .Footer {
+            background-color: #457385;
+            /* #745C42;*/
+            color: #fff;
+            padding: 15px 50px;
+            font-size: 15px;
+
+            /*
+    background-image: linear-gradient(#745c42ab, #3A2E21), url(http://fpc.dos.state.fl.us/political/pt11436.jpg);
+      background-repeat: no-repeat;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: scroll;
+      background-position: center 0%;
+      border-top: #908373 2px solid;
+    */
+          }
+
+          .Footer .FM_statement span {
+            font-size: 18px;
+            font-weight: bold;
+          }
+
+          .Footer a {
+            display: inline-block;
+          }
+
+          .Footer .nav-link:hover {
+            text-decoration: underline;
+          }
+
+          .Footer .affiliates .nav-link {
+            padding-left: 0px;
+          }
+
+          .Footer .columnTitle {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: bold;
+          }
+
+          .highcontrast .borderLeftRight {
+            border-color: white;
+          }
+
+          @media screen and (min-width:992px) {
+            .borderLeftRight {
+              border-right: 1px solid #fff;
+              border-left: 1px solid #fff;
+            }
+
+            .socialMedia.borderRight {
+              border-right: 1px solid;
+            }
+          }
+
+          .Footer .affiliates a,
+          .additional_Links a,
+          .socialMedia a {
+            color: #fff;
+          }
+
+          .Footer .socialMedia i {
+            font-size: 32px;
+          }
+
+          .FMSignUp {
+            background: #fff;
+            color: #505050 !important;
+            font-weight: bold;
+            border-radius: 1.25rem;
+            padding: 5px 15px 6x;
+            text-decoration: none;
+            transition: 0.5s;
+          }
+
+          .FMSignUp:hover {
+            background-color: #fff;
+            opacity: 0.9;
+          }
+
+          .fmp-informative a {
+            text-decoration: underline;
+            color: #fff;
+          }
+
+          @media screen and (max-width:992px) {
+            .Footer {
+              padding: 15px 20px;
+            }
+          }
+
+          /* Button used to open the contact form - fixed at the bottom of the page */
+          .open-button {
+            display: none;
+            /*background-color: #9B7A58;*/
+            background-color: #1F4D5F;
+            color: white;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            position: fixed;
+            bottom: 100px;
+            width: auto;
+            left: 100%;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transform: rotate(270deg);
+            -webkit-transform: rotate(270deg);
+            transform-origin: bottom left;
+            -webkit-transform-origin: bottom left;
+            transition: 0.5s;
+            z-index: 3;
+          }
+
+          .open-button:hover {
+            /*background: #886B4D;*/
+            background: #4C7584;
+          }
+
+          /* The popup form - hidden by default */
+          .form-popup {
+            position: fixed;
+            bottom: 7%;
+            right: -406px;
+            z-index: 9;
+            transition: 0.5s;
+          }
+
+          .form-popup p {
+            font-size: 13px;
+          }
+
+          .form-popup h5.header {
+            text-align: center;
+            padding: 10px 0px;
+            background: #ffffff;
+            border-bottom: 1px solid black;
+            margin: 0 !important;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 700;
+          }
+
+          /* Add styles to the form container */
+          .form-container {
+            max-width: 400px;
+            padding: 10px;
+            background-color: #ffffff;
+          }
+
+          /* Full-width input fields */
+          .form-container input[type=text],
+          .form-container input[type=tel],
+          .form-container input[type=email] {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border-top: none;
+            border-radius: 0;
+            border-right: none;
+            border-left: none;
+          }
+
+          .form-container textarea.form-control {
+            border-radius: 0;
+          }
+
+          .submit {
+            background-color: #28a745;
+            color: white;
+            border-radius: 0;
+            font-weight: 600;
+          }
+
+          .cancel {
+            background-color: #ff0707;
+            color: white;
+            border-radius: 0;
+            font-weight: 600;
+          }
+
+          .reset {
+            background-color: #7b7b7b;
+            color: white;
+            border-radius: 0;
+            font-weight: 600;
+          }
+
+
+
+
+          .form-container .custom-control:hover,
+          .form-container .custom-control .custom-control-input:hover,
+          .form-container .custom-control .custom-control-label:hover {
+            cursor: pointer !important;
+          }
+
+          .form-container .custom-control .custom-control-label:focus {
+            outline: none;
+          }
+
+          .form-container .custom-control-input:focus~.custom-control-label::before {
+            box-shadow: none;
+          }
+
+          .form-container .custom-control-input:active~.custom-control-label::before,
+          .form-container .custom-control-label::before {
+            background-color: gainsboro;
+          }
+
+          .form-container .custom-radio .custom-control-input:checked~.custom-control-label::before {
+            background-color: gainsboro;
+          }
+
+          .form-container .custom-control-input:checked~.custom-control-label::before {
+            background-color: gainsboro;
+          }
+
+          .form-container .custom-control-input:active~.custom-control-label::before {
+            background-color: gainsboro;
+          }
+
+          .form-container .custom-radio .custom-control-input:checked~.custom-control-label::before {
+            background-color: black;
+          }
+
+
+          @media screen and (max-width:992px) {
+            .open-button {
+              display: none;
+            }
+          }
+
+          @media screen and (max-width:992px) {
+            .form-popup {
+              display: none;
+            }
+          }
+
+
+          .signupText a:hover {
+            color: white !important;
+          }
+
+          .inverted .invertWDL {
+            display: block;
+            filter: none;
+            border-radius: 1px;
+          }
+
+          .inverted .invertBlog {
+            display: block;
+            filter: none;
+          }
+
+          .inverted .defaultWDL,
+          .inverted .defaultBlog {
+            display: none;
+          }
+
+          .invertWDL,
+          .invertBlog {
+            display: none;
+          }
+
+          .highcontrastWDL {
+            display: none;
+          }
+
+          .highcontrast .highcontrastWDL {
+            display: block;
+          }
+
+          .highcontrast .defaultWDL {
+            display: none;
+          }
+
+
+          .highcontrastBlog {
+            display: none;
+          }
+
+          .highcontrast .highcontrastBlog {
+            display: block;
+          }
+
+          .highcontrast .defaultBlog {
+            display: none;
+          }
+
+          .defaultWDL,
+          .defaultBlog {
+            display: block;
+          }
+        </style>
+
+        <style>
+          @media screen and (min-width: 992px) {
+            .state-fl-logo {
+              position: relative;
+              right: 40px;
+            }
+
+            .dlis-logo {
+              position: relative;
+              left: 30px;
+            }
+          }
+
+          @media screen and (min-width: 1700px) {
+            .state-fl-logo {
+              position: relative;
+              right: 70px;
+            }
+
+            .dlis-logo {
+              position: relative;
+              left: 40px;
+            }
+          }
+
+          /* .footer-link-style {
+  text-decoration:underline;
+  } */
+
+
+          .footer-link-style:hover,
+          .footer-icon-color:hover {
+            color: #fff !important;
+            /* transform: scale(1.1) */
+            /* opacity: .7; */
+            transform: scale(1.1);
+          }
+        </style>
+
+
+
+
+
+
+
+
+
+      </div><!-- view on header -->
+
+
+
+
+
+      <nav class="navbar Footer">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">
+
+            <div class="row d-flex justify-content-center align-items-center m-6">
+              <div class="col-12 col-lg-6 text-center">
+                <img class="state-fl-logo"
+                  src="https://www.floridamemory.com/themes/florida_memory/images/logos/state_seal.png"
+                  alt="State Seal of Florida">
+              </div>
+
+              <div class="col-12 col-lg-6 text-center">
+                <img class="img-fluid dlis-logo "
+                  src="https://www.floridamemory.com/themes/florida_memory/images/logos/DLIS-H-WebRes-RGB-Rev.png"
+                  alt="Division of Library and Information Services logo" width="350">
+              </div>
+            </div>
+
+
+
+            <div class="row text-center justify-content-center mt-4">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 px-lg-5">
+                <p class="FM_statement"><span>Florida Memory</span> is a digital outreach program providing free online
+                  access to select archival records from collections housed in the State Library and Archives of
+                  Florida. Florida Memory digitizes materials that illuminate the state's history and culture.
+                </p>
+
+                <nav class="nav flex-column affiliates">
+                  <li><a class="footer-link-style nav-link" href="http://dos.myflorida.com/">Florida Department of
+                      State</a></li>
+                  <li><a class="footer-link-style nav-link" href="http://dos.myflorida.com/library-archives/">Division
+                      of Library &amp; Information Services</a></li>
+                  <li><a class="footer-link-style nav-link"
+                      href="http://dos.myflorida.com/library-archives/about-us/about-the-state-archives-of-florida/">State
+                      Archives of Florida</a></li>
+                </nav>
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 px-md-4 px-lg-5 borderLeftRight">
+                <h4 class="columnTitle mt-5 mt-md-5 mt-lg-0">Additional Links</h4>
+                <nav class="nav flex-column additional_Links">
+                  <a class="footer-link-style nav-link active" href="https://www.floridamemory.com/learn/about/">About
+                    Us</a>
+                  <a class="footer-link-style nav-link" href="https://www.floridamemory.com/share/connect/">Connect With
+                    Us</a>
+                  <a class="footer-link-style nav-link"
+                    href="https://www.floridamemory.com/learn/about/disclaimer.php">Disclaimer</a>
+                  <a class="footer-link-style nav-link" href="http://archivescatalog.info.florida.gov/default.asp">State
+                    Archives Online Catalog</a>
+                  <a class="footer-link-style nav-link" href="http://fslt.ent.sirsi.net/client/en_US/statelibrary">State
+                    Library Online Catalog</a>
+                  <a class="footer-link-style nav-link" href="https://askalibrarian.org/">Ask A Librarian</a>
+                  <a class="footer-link-style nav-link" href="http://dos.myflorida.com/accessibility/">Accessibility
+                    Statement</a>
+                </nav>
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 px-md-4 px-lg-5">
+                <h4 class="columnTitle mt-5 mt-md-5 mt-lg-0">Follow Us</h4>
+                <nav class="nav socialMedia d-flex justify-content-center flex-nowrap">
+                  <a class="footer-icon-color nav-link" href="https://www.facebook.com/statearchivesofflorida/"
+                    title="Facebook"><i class="fa fa-facebook aria-hidden=" true""></i></a>
+                  <a class="footer-icon-color nav-link"
+                    href="https://twitter.com/FLMemory?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3AFLMemory&ref_url=https%3A%2F%2Fwww.floridamemory.com%2Fconnect%2Fsocial-media.php"
+                    title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a class="footer-icon-color nav-link" href="https://www.instagram.com/floridamemory/"
+                    title="Instagram"><i class="fa fa-instagram aria-hidden=" true""></i></a>
+                  <a class="footer-icon-color nav-link" href="https://www.youtube.com/user/FloridaMemory"
+                    title="Youtube"><i class="fa fa-youtube-play aria-hidden=" true""></i></a>
+                  <a class="footer-icon-color nav-link" href="http://www.flickr.com/photos/floridamemory/"
+                    title="Flickr"><i class="fa fa-flickr aria-hidden=" true""></i></a>
+                  <!--<a class="footer-link-style nav-link wdlIcon" href="https://www.wdl.org/en/search/?institution=state-library-and-archives-of-florida&qla=en" title="World Digital Library"><img class="defaultWDL" src="https://www.floridamemory.com/themes/florida_memory/images/logos/wdl-64.png" alt="Connect with us on World Digital Library" width="30"><img class="invertWDL" src="https://www.floridamemory.com/themes/florida_memory/images/logos/wdl-64-invert.png" alt="Connect with us on World Digital Library" width="30"><img class="highcontrastWDL" src="https://www.floridamemory.com/themes/florida_memory/images/logos/wdl-64-highcontrast.png" alt="Connect with us on World Digital Library" width="30">
+              </a>-->
+                  <!--<a class="footer-link-style nav-link blogIcon" href="https://www.floridamemory.com/blog" title="Blog"><img class="defaultBlog" src="https://www.floridamemory.com/themes/florida_memory/images/logos/blog-64.png" alt="Blog" width="30"><img class="invertBlog" src="https://www.floridamemory.com/themes/florida_memory/images/logos/blog-64-invert.png" alt="Blog" width="30"><img class="highcontrastBlog" src="https://www.floridamemory.com/themes/florida_memory/images/logos/blog-64-highcontrast.png" alt="Blog" width="30"></a>-->
+                </nav>
+
+
+
+              </div>
+            </div>
+
+            <div class="row mt-5 justify-content-center fmp-informative">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-8 mx-auto">
+                <p class="text-center">Florida Memory is funded under the provisions of the Library Services and
+                  Technology Act from the Institute of Museum and Library Services.
+                  Florida's LSTA program is administered by the Department of State's <a class="footer-link-style"
+                    href="http://dos.myflorida.com/library-archives/">Division of Library and Information Services</a>.
+                </p>
+                <p class="text-center">For FY2022-23, the percentage of total costs for the Florida Memory program
+                  financed with federal money is 66%; the federal dollar amount to be spent on the program is $646,422.
+                  This program does not receive any non-governmental funding.</p>
+
+                <div style="text-align: center;"><img class="img-fluid"
+                    src="https://www.floridamemory.com/themes/florida_memory/images/logos/imls_logo_white.png"
+                    width="270" alt="IMLS" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+
+      <!-- Adds/Removes shadow to feedback from-->
+      <script>
+        function openForm() {
+          document.getElementById("FeedbackForm").style.right = "0px";
+          document.getElementById("FeedbackForm").style.boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
+        }
+
+        function closeForm() {
+          document.getElementById("FeedbackForm").style.right = "-406px";
+          document.getElementById("FeedbackForm").style.boxShadow = "none";
+        }
+      </script>
+
+
+
+      <script>
+        // Feedback validation form
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+          'use strict';
+          window.addEventListener('load', function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (form) {
+              form.addEventListener('submit', function (event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+      </script>
+
+      <script>
+        //Adds margin to title of Advanced Search page
+        $('h1:contains("Advanced Search")').css("margin", "30px 0 0 25px");
+      </script>
+
+
+
+
+
+
+      <div id="top_mask"></div>
+      <div id="bottom_mask"></div>
+
+
+      <!----------------- Text Magnifier ---------------------->
+      <div id="text_magnify"></div>
+
+
+
+      <!----------------- Image Description Magnifier ---------------------->
+      <div id="ImageDescription_magnify"></div>
+
+    </div>
+  </div><iframe scrolling="no" frameborder="0" allowtransparency="true"
+    src="https://platform.twitter.com/widgets/widget_iframe.d37472b4a6622d0b1fff46ad904f6896.html?origin=https%3A%2F%2Fwww.floridamemory.com"
+    title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no"
+    frameborder="0" allowtransparency="true" allowfullscreen="true"
+    style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;"
+    title="Twitter analytics iframe"></iframe>
+</body>
+
+</html>
